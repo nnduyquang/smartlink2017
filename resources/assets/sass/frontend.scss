@@ -1,0 +1,132 @@
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+p, li, h1, h2, h3, h4 {
+  color: #4e4e4e;
+}
+
+body {
+  background: #fbfbfb;
+}
+
+.wrapper {
+  width: 96%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+header {
+  padding: 20px 20px;
+  h1 {
+    margin: 0;
+    text-indent: -10000px;
+    background: url(../images/logo.png) no-repeat center;
+    height: 100px;
+    width: 254px;
+    float: left;
+  }
+  nav {
+    float: right;
+    h2 {
+      line-height: 0;
+      margin: 0;
+      text-indent: -10000px;
+    }
+    li {
+      list-style-type: none;
+      float: left;
+      margin-left: 20px;
+      margin-top: 10px;
+      a {
+        text-decoration: none;
+        position: relative;
+        display: block;
+        padding: 5px;
+        color: #4e4e4e;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: color .2s ease-in;
+      }
+      a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -9px;
+        width: 0;
+        height: 2px;
+        background-color: #F38F5F;
+        transition: width .3s linear;
+      }
+      a:hover {
+        text-decoration: none;
+        color: #F38F5F;
+      }
+      a:hover::after {
+        width: 100%;
+      }
+      a.current {
+        color: #F38F5F;
+      }
+    }
+  }
+  &:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+#mainBanner {
+  max-height: 500px;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+//Đối Với Màn Hình Di Động
+@media screen and(max-width: 480px) {
+  header {
+    padding: 0;
+    nav {
+      background: #555;
+      width: 100%;
+      li {
+        float: none;
+        width: 100%;
+        margin: 0;
+        a {
+          display: block;
+          text-align: center;
+          padding: 10px;
+          color: #999;
+          border-top: 1px solid #4f4f4f;
+        }
+      }
+      ul {
+        height: 0;
+        overflow: hidden;
+      }
+      ul.open {
+        height: auto;
+      }
+    }
+    .wrapper {
+      padding: 0;
+      width: 100%;
+    }
+    h1 {
+      background-position: center center;
+      width: 100%;
+    }
+  }
+  #burgerNav {
+    width: 100%;
+    height: 40px;
+    background: url(../images/temps/burger.png) no-repeat 98% center;
+    cursor: pointer;
+  }
+}
