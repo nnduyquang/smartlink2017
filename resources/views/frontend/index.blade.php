@@ -4,4 +4,5 @@
 @stop
 @section('container')
     @include('frontend.whychoosesmartlinks.whychoosesmartlinks')
+    @include('frontend.analysiswebsite.analysiswebsite')
 @stop
