@@ -1,8 +1,12 @@
-<div class="row">
-    <div class="containerAnalysis">
-        <svg id="cms-svg" class="cms-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-             viewBox="0 0 85 100" preserveAspectRatio="none">
-            <path d="M-5 100 Q 0 20 5 100 Z
+<div class="containerAnalysis">
+    <div class="row">
+        <div class="svgWrap col-lg-12">
+            <div class="row">
+                {{ Html::image('images/temps/rocket.png','',array('class'=>'iconRocket')) }}
+                <svg id="cms-svg" class="cms-svg col-xs-12" xmlns="http://www.w3.org/2000/svg" version="1.1"
+                     width="100%" height="100"
+                     viewBox="0 0 85 100" preserveAspectRatio="none">
+                    <path d="M-5 100 Q 0 20 5 100 Z
 M0 100 Q 5 0 10 100
 M5 100 Q 10 30 15 100
 M10 100 Q 15 10 20 100
@@ -23,7 +27,22 @@ M80 100 Q 85 20 90 100
 M85 100 Q 90 50 95 100
 M90 100 Q 95 25 100 100
 M95 100 Q 100 15 105 100 Z" fill="#59b3c5" stroke="#59b3c5">
-            </path>
-        </svg>
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="containSwap col-lg-12">
+            <div class="col-lg-12">
+                <div class="emptySpace"></div>
+                <div class="headingText">
+                    <h5 class="subHeading in">Phân Tích Website 100% Miễn Phí</h5>
+                    <h3 class="heading in">Phân Tích Website Của Bạn</h3>
+                    <hr class="headingLine in">
+                </div>
+                <div class="emptySpace"></div>
+                <div class="emptySpace"></div>
+            </div>
+            
+        </div>
     </div>
 </div>

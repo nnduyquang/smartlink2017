@@ -104,6 +104,12 @@ header {
     color: #979797;
     margin: 0;
     text-transform: uppercase;
+    &.out{
+      color: #979797;
+    }
+    &.in{
+      color: #ffffff;
+    }
   }
   .heading {
     padding: 10px 0 0;
@@ -111,6 +117,9 @@ header {
     font-size: 26px;
     line-height: 1;
     font-weight: 700;
+    &.in{
+      color: white;
+    }
   }
   .headingLine {
     width: 60px;
@@ -119,6 +128,9 @@ header {
     margin-left: auto;
     margin-right: auto;
     float: none;
+    &.in{
+      border: 1px dashed #ffffff;
+    }
   }
 }
 
@@ -298,12 +310,33 @@ header {
     transform: scale(1);
     opacity: 1;
   }
-  //END Tại Sao Chọn Smartlinks
 
-  //Analysis Website
-  .containerAnalysis {
-    padding-left: 0;
-    padding-right: 0;
+}
+
+//END Tại Sao Chọn Smartlinks
+//Analysis Website
+.containerAnalysis{
+  position: relative;
+
+  .svgWrap{
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    .iconRocket{
+      top: 22px;
+      left: 50%;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+  .containSwap{
+    background: #59b3c5 url(http://demo.themestrong.com/wordpress/wp-seomarkt/wp-content/uploads/2016/06/section_bg_04.png?id=238) center bottom !important;
+    background-repeat: no-repeat !important;
+    padding-bottom: 111px !important;
+    box-sizing: border-box;
+    width: 1201px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 

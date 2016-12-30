@@ -1,6 +1,6 @@
 <div class="emptySpace"></div>
 <div class="headingText">
-    <h5 class="subHeading">Chúng Tôi Mang Giá Trị Lợi Nhuận Cho Quý Khách Hàng</h5>
+    <h5 class="subHeading out">Chúng Tôi Mang Giá Trị Lợi Nhuận Cho Quý Khách Hàng</h5>
     <h3 class="heading">Vì Sao Chọn Smartlinks</h3>
     <hr class="headingLine">
 </div>
