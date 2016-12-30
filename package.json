@@ -14,5 +14,22 @@
     "lodash": "^4.16.2",
     "vue": "^2.0.1",
     "vue-resource": "^1.0.3"
-  }
+  },
+  "name": "smartlinks",
+  "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img width=\"150\"src=\"https://laravel.com/laravel.png\"></a></p>",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnduyquang/smartlink2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnduyquang/smartlink2017/issues"
+  },
+  "homepage": "https://github.com/nnduyquang/smartlink2017#readme"
 }

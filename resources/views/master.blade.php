@@ -19,7 +19,7 @@
 <div id="mainBanner">
     @yield('sliderBanner')
 </div>
-<div class="container">
+<div class="container-fluid">
     @yield('container')
 </div>
 </body>
