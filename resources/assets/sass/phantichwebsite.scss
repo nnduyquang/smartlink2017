@@ -1,0 +1,55 @@
+/*
+*
+*
+*******Phân Tích Website
+*
+*
+*/
+.containerAnalysis {
+  position: relative;
+
+  .svgWrap {
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    .iconRocket {
+      top: 22px;
+      left: 50%;
+      position: absolute;
+      z-index: 1;
+      transform: translateX(-50%)
+    }
+  }
+  .containSwap {
+    background: #59b3c5 url(../images/temps/section_bg_04.png) center bottom !important;
+    background-repeat: no-repeat !important;
+    padding-bottom: 111px !important;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: -5px;
+  }
+  .wpInputAnalysis {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 200px;
+    padding: 15px;
+    position: relative;
+    .inputNoBorder {
+      border: none;
+      height: 60px;
+      font-size: 20px;
+    }
+    .btnAnalysis {
+      background-color: #f58220;
+      color: white;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 22px;
+      width: 100%;
+      height: 60px;
+    }
+  }
+}
+
+//END Phân Tích Website

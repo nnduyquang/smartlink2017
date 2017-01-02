@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('frontend.index');
+    return view('frontend.trangchu.index');
 });

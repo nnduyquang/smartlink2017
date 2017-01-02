@@ -14,12 +14,12 @@
 </head>
 <body>
 <header>
-    @include('frontend.header.menu')
+    @include('frontend.trangchu.header.menu')
 </header>
 <div id="mainBanner">
     @yield('sliderBanner')
 </div>
-<div class="container-fluid">
+<div class="">
     @yield('container')
 </div>
 </body>

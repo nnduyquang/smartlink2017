@@ -1,0 +1,12 @@
+@extends('master')
+@section('sliderBanner')
+    @include('frontend.trangchu.header.slider')
+@stop
+@section('container')
+    @include('frontend.trangchu.whychoosesmartlinks.whychoosesmartlinks')
+    @include('frontend.trangchu.analysiswebsite.analysiswebsite')
+    @include('frontend.trangchu.services.services')
+    @include('frontend.trangchu.consultants.consultants')
+    @include('frontend.trangchu.prices.prices')
+    @include('frontend.trangchu.lienhebaogia.lienhebaogia')
+@stop
