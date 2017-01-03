@@ -11882,6 +11882,13 @@ header:after {
   }
 }
 
+/*
+*
+*
+*******Liên Hệ Báo Giá
+*
+*
+*/
 .containerContact .containSwap {
   padding-top: 55px;
   background-color: #455a64 !important;
@@ -11891,4 +11898,317 @@ header:after {
   padding-left: 0 !important;
   padding-right: 0 !important;
   margin-top: -5px;
+}
+
+.containerContact .containSwap .wpContact .inputText, .containerContact .containSwap .wpContact .inputArea {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.01);
+  box-shadow: none;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.containerContact .containSwap .wpContact .inputText:hover, .containerContact .containSwap .wpContact .inputArea:hover {
+  border: solid 1px #f1773d;
+}
+
+.containerContact .containSwap .wpContact .inputText {
+  height: 50px;
+}
+
+.containerContact .containSwap .wpContact .btnContact {
+  height: 50px;
+  border-color: transparent;
+  color: white;
+  font-weight: 700;
+  border-radius: 3px;
+  -webkit-transition: all 300ms linear 0ms;
+  transition: all 300ms linear 0ms;
+  width: 100%;
+  background-color: #f1773d;
+}
+
+.containerContact .containSwap .wpContact .btnContact:hover {
+  background-color: #cb5720;
+}
+
+/*
+*
+*
+*******Tin Tức
+*
+*
+*/
+.containerNews {
+  box-sizing: border-box;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-top: -5px;
+  padding-top: 55px;
+  padding-bottom: 90px;
+  width: 100%;
+}
+
+.containerNews .oneNew {
+  width: 227px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.containerNews .oneNew .imageNew {
+  padding: 0;
+}
+
+.containerNews .oneNew .imageNew .styleNew {
+  display: inline;
+  width: 100%;
+  height: 150px;
+}
+
+.containerNews .oneNew .detailNew .titleNew {
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+.containerNews .newArrowControl .arrowNav {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.containerNews .newArrowControl .arrowNav .arrowPrev, .containerNews .newArrowControl .arrowNav .arrowNext {
+  display: inline-block;
+  color: white;
+  margin: 5px;
+  padding: 0;
+  width: 33px;
+  height: 33px;
+  font-size: 21px;
+  text-align: center;
+  line-height: 30px;
+  background: #103754;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-transition: all 300ms linear 0ms;
+  transition: all 300ms linear 0ms;
+}
+
+.containerFooter {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.containerFooter .locationArea {
+  position: relative;
+  width: 100%;
+  background-color: #05679c;
+  padding: 87px 20px 166px;
+  margin-bottom: -121px;
+  color: white;
+  line-height: 1.4;
+}
+
+.containerFooter .locationArea .frame {
+  max-height: 1578px;
+  border-radius: 5px;
+  padding: 25px;
+  border: 1px solid rgba(86, 207, 255, 0.3);
+  border-top: none;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  min-width: 268px;
+  float: left;
+  width: 100%;
+}
+
+.containerFooter .locationArea .frame .locationHeader {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 36px;
+  margin-top: -80px;
+}
+
+.containerFooter .locationArea .frame .locationHeader svg {
+  display: inline-block;
+  width: 50px;
+  height: 60px;
+  fill: #fff;
+  opacity: .2;
+  position: relative;
+  top: 17px;
+  margin-right: 3px;
+}
+
+.containerFooter .locationArea .frame .locationHeader span {
+  display: inline-block;
+}
+
+.containerFooter .locationArea .frame .locationHeader span::before {
+  content: "";
+  height: 26px;
+  width: 41%;
+  position: absolute;
+  right: -25px;
+  top: 76%;
+  border: rgba(86, 207, 255, 0.3) solid;
+  border-width: 1px 0 0;
+  border-radius: 0 5px 0 0;
+}
+
+.containerFooter .locationArea .frame .locationHeader span::after {
+  content: "";
+  height: 26px;
+  width: 41%;
+  position: absolute;
+  left: -25px;
+  top: 76%;
+  border: rgba(86, 207, 255, 0.3) solid;
+  border-width: 1px 0 0;
+  border-radius: 0 5px 0 0;
+}
+
+.containerFooter .locationArea .frame .locationHolder {
+  margin: -10px auto -20px;
+  width: 100%;
+  border-top: 13px solid transparent;
+  float: left;
+}
+
+.containerFooter .locationArea .frame .locationHolder .titleHeader {
+  font-size: 20px;
+}
+
+.containerFooter .locationArea .frame .locationHolder .titleAddress {
+  font-size: 18px;
+}
+
+.containerFooter .locationArea .frame .locationHolder .contact {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.containerFooter .locationArea .frame .locationHolder .contact .phone::before {
+  content: '\f098';
+  font-family: "FontAwesome";
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.containerFooter .locationArea .frame .locationHolder .contact .mobile::before {
+  content: '\f10b';
+  font-family: "FontAwesome";
+  font-size: 40px;
+  margin-right: 17px;
+}
+
+.containerFooter .locationArea .frame .locationHolder .contact .email::before {
+  content: '\f0e0';
+  font-family: "FontAwesome";
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.containerFooter .locationArea .bg {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+.containerFooter .locationArea .bg.bgHCM {
+  background-image: url(../images/temps/bgHCM.jpg);
+}
+
+.containerFooter .socialsBox {
+  padding: 0 20px;
+  position: relative;
+}
+
+.containerFooter .socialsBox .frame {
+  z-index: 2;
+  float: left;
+  width: 100%;
+  background: #00a3de;
+  border-radius: 5px;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+
+.containerFooter .socialsBox .frame::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background: #0f1217;
+  z-index: -1;
+}
+
+.containerFooter .socialsBox .frame .titleHeader {
+  color: white;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.containerFooter .socialsBox .frame .socials {
+  border: 1px solid #5cc2e9;
+  margin: 0 auto;
+  float: left;
+  width: 100%;
+}
+
+.containerFooter .socialsBox .frame .socials .item {
+  background: rgba(37, 37, 37, 0.1);
+  height: 73px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.containerFooter .menuFooter {
+  float: left;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #0f1217;
+}
+
+.containerFooter .menuFooter .wpFooter {
+  text-align: center;
+}
+
+.containerFooter .menuFooter .wpFooter ul li {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline;
+}
+
+.containerFooter .menuFooter .wpFooter ul li a {
+  text-decoration: none;
+  position: relative;
+  padding: 5px;
+  color: #4e4e4e;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-transition: color .2s ease-in;
+  transition: color .2s ease-in;
 }

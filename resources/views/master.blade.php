@@ -14,13 +14,16 @@
 </head>
 <body>
 <header>
-    @include('frontend.trangchu.header.menu')
+    @include('frontend.header.menu')
 </header>
 <div id="mainBanner">
     @yield('sliderBanner')
 </div>
 <div class="">
     @yield('container')
+</div>
+<div class="footer">
+    @include('frontend.footer.footer')
 </div>
 </body>
 </Html>

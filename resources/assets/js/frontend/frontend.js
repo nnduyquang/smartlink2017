@@ -31,4 +31,30 @@ $(document).ready(function(){
         }]
     });
 
+    $('.newCarousel').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow:'.arrowPrev',
+        nextArrow:'.arrowNext',
+        mobileFirst:true,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            }
+        }, {
+
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+            }
+        }, {
+            breakpoint: 480,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        }]
+    });
+
 });

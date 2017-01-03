@@ -1,0 +1,58 @@
+
+/*
+*
+*
+*******Tin Tức
+*
+*
+*/
+.containerNews{
+  box-sizing: border-box;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-top: -5px;
+  padding-top: 55px;
+  padding-bottom: 90px;
+  width: 100%;
+  .oneNew{
+    width: 227px;
+    text-align: center;
+    margin-right: 10px;
+    .imageNew {
+      padding: 0;
+      .styleNew {
+        display: inline;
+        width: 100%;
+        height: 150px;
+      }
+    }
+    .detailNew{
+      .titleNew{
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+      }
+    }
+  }
+  .newArrowControl {
+    .arrowNav {
+      margin-top: 10px;
+      text-align: center;
+      .arrowPrev, .arrowNext {
+        display: inline-block;
+        color: white;
+        margin: 5px;
+        padding: 0;
+        width: 33px;
+        height: 33px;
+        font-size: 21px;
+        text-align: center;
+        line-height: 30px;
+        background: #103754;
+        cursor: pointer;
+        border-radius: 3px;
+        transition: all 300ms linear 0ms;
+      }
+    }
+  }
+}//END Tin Tức

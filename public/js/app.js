@@ -10379,6 +10379,32 @@ $(document).ready(function(){
         }]
     });
 
+    $('.newCarousel').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow:'.arrowPrev',
+        nextArrow:'.arrowNext',
+        mobileFirst:true,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            }
+        }, {
+
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+            }
+        }, {
+            breakpoint: 480,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        }]
+    });
+
 });
 
 
@@ -12783,7 +12809,7 @@ if (typeof jQuery === 'undefined') {
   var undefined;
 
   /** Used as the semantic version number. */
-  var VERSION = '4.17.3';
+  var VERSION = '4.17.4';
 
   /** Used as the size to enable large array optimizations. */
   var LARGE_ARRAY_SIZE = 200;
@@ -18403,8 +18429,8 @@ if (typeof jQuery === 'undefined') {
      * @param {string} key The key of the property to inspect.
      * @returns {*} Returns the uncloned value or `undefined` to defer cloning to `_.cloneDeep`.
      */
-    function customOmitClone(value, key) {
-      return (key !== undefined && isPlainObject(value)) ? undefined : value;
+    function customOmitClone(value) {
+      return isPlainObject(value) ? undefined : value;
     }
 
     /**

@@ -8,27 +8,25 @@
             </div>
         </div>
         <div class="container">
-            <div class="wpContact col-lg-12">
-                <div class="col-lg-6">
-                    {{Form::text('username','',array('class'=>'form-control','placeholder'=>'Tên'))}}
+            <div class="wpContact col-lg-8 col-lg-offset-2">
+                <div class="col-lg-6 col-xs-12">
+                    {{Form::text('username','',array('class'=>'form-control inputText','placeholder'=>'Tên'))}}
                 </div>
-                <div class="col-lg-6">
-                    {{Form::text('username','',array('class'=>'form-control','placeholder'=>'Email'))}}
+                <div class="col-lg-6 col-xs-12">
+                    {{Form::text('username','',array('class'=>'form-control inputText','placeholder'=>'Email'))}}
                 </div>
-                <div class="col-lg-6">
-                    {{Form::text('username','',array('class'=>'form-control','placeholder'=>'Điện Thoại'))}}
+                <div class="col-lg-6 col-xs-12">
+                    {{Form::text('username','',array('class'=>'form-control inputText','placeholder'=>'Điện Thoại'))}}
                 </div>
-                <div class="col-lg-6">
-                    {{Form::text('username','',array('class'=>'form-control','placeholder'=>'Website'))}}
+                <div class="col-lg-6 col-xs-12">
+                    {{Form::text('username','',array('class'=>'form-control inputText','placeholder'=>'Website'))}}
+                </div>
+                <div class="col-lg-12 col-xs-12">
+                    {{Form::textarea('username','',array('size' => '30x5','class'=>'form-control inputArea','placeholder'=>'Điện Thoại'))}}
                 </div>
                 <div class="col-lg-12">
-                    {{Form::textarea('username','',array('size' => '30x5','class'=>'form-control','placeholder'=>'Điện Thoại'))}}
+                    <button type="button" class="btn btnContact">GỬI BÁO GIÁ</button>
                 </div>
-                <div class="col-lg-12">
-                    <button type="button" class="btn btnContact">PHÂN TÍCH</button>
-                </div>
-
-
             </div>
         </div>
 
