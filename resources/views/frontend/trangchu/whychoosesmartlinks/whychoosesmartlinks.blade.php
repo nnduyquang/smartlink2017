@@ -6,7 +6,7 @@
         <hr class="headingLine">
     </div>
     <div class="containerWhy">
-        <div class="col-md-4 col-xs-12">
+        <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border1">
                 <div class="iconItem bgItem1">
                     {{ Html::image('images/temps/iconResult1.png','',array('class'=>'styleIconWhy1')) }}
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-xs-12">
+        <div class="col-md-4 col-xs-12 col-sm-6">
 
             <div class="oneItem border2">
                 <div class="iconItem bgItem2">
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-xs-12">
+        <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border3">
                 <div class="iconItem bgItem3">
                     {{ Html::image('images/temps/iconResult3.png','',array('class'=>'styleIconWhy3')) }}
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-xs-12">
+        <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border4">
                 <div class="iconItem bgItem4">
                     {{ Html::image('images/temps/iconResult4.png','',array('class'=>'styleIconWhy4')) }}
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-xs-12">
+        <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border5">
                 <div class="iconItem bgItem5">
                     {{ Html::image('images/temps/iconResult5.png','',array('class'=>'styleIconWhy5')) }}
@@ -82,7 +82,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-xs-12">
+        <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border6">
                 <div class="iconItem bgItem6">
                     {{ Html::image('images/temps/iconResult6.png','',array('class'=>'styleIconWhy6')) }}

@@ -11280,6 +11280,18 @@ header:after {
   }
 }
 
+@media screen and (max-width: 980px) {
+  .oneItem.border1, .oneItem.border2, .oneItem.border3, .oneItem.border4, .oneItem.border5, .oneItem.border6 {
+    border: none !important;
+  }
+  .wpInputAnalysis {
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
+  .wpInputAnalysis .inputNoBorder {
+    margin-bottom: 10px;
+  }
+}
+
 /*
 *
 *
@@ -11544,15 +11556,19 @@ header:after {
 *******Màn Hình Di Động
 *
 *
-*/
-@media screen and (max-width: 480px) {
+//*/
+@media screen and (max-width: 980px) {
   .containerService .wpService .bgServices {
     display: none;
   }
   .containerService .serviceItem .iconItem {
-    width: 90px !important;
-    height: 90px !important;
+    width: 127px !important;
+    height: 127px !important;
     border: none !important;
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
   }
   .containerService .serviceItem .contentItem {
     padding-left: 20px !important;
@@ -11563,61 +11579,43 @@ header:after {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .containerService .serviceItem.item1 .moveItem {
-    float: left !important;
-  }
   .containerService .serviceItem.item1 .textItem {
-    text-align: left !important;
+    text-align: center !important;
   }
   .containerService .serviceItem.item2 {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .containerService .serviceItem.item2 .moveItem {
-    float: left !important;
-  }
   .containerService .serviceItem.item2 .textItem {
-    text-align: left !important;
+    text-align: center !important;
   }
   .containerService .serviceItem.item3 {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .containerService .serviceItem.item3 .moveItem {
-    float: left !important;
-  }
   .containerService .serviceItem.item3 .textItem {
-    text-align: left !important;
+    text-align: center !important;
   }
   .containerService .serviceItem.item4 {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .containerService .serviceItem.item4 .moveItem {
-    float: left !important;
-  }
   .containerService .serviceItem.item4 .textItem {
-    text-align: left !important;
+    text-align: center !important;
   }
   .containerService .serviceItem.item5 {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .containerService .serviceItem.item5 .moveItem {
-    float: left !important;
-  }
   .containerService .serviceItem.item5 .textItem {
-    text-align: left !important;
+    text-align: center !important;
   }
   .containerService .serviceItem.item6 {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .containerService .serviceItem.item6 .moveItem {
-    float: left !important;
-  }
   .containerService .serviceItem.item6 .textItem {
-    text-align: left !important;
+    text-align: center !important;
   }
 }
 
@@ -11872,6 +11870,17 @@ header:after {
 *
 */
 @media screen and (max-width: 480px) {
+  .containerPrices .onePrice {
+    border-radius: 0;
+    margin-top: 20px;
+    min-height: 300px;
+  }
+  .containerPrices .onePrice::after {
+    border-radius: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .containerPrices .onePrice {
     border-radius: 0;
     margin-top: 20px;
@@ -12320,5 +12329,17 @@ header:after {
   .containerFooter .wpFooter {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .containerFooter {
+    background-color: #0f1217;
+  }
+  .containerFooter .socialsBox .frame .titleHeader {
+    font-size: 28px;
+  }
+  .containerFooter .socialsBox .frame .socials .bgItem {
+    border-bottom: 1px solid #5cc2e9;
   }
 }
