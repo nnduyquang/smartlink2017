@@ -1,6 +1,7 @@
 .containerFooter {
   padding-left: 0;
   padding-right: 0;
+  float: left;
   .locationArea {
     position: relative;
     width: 100%;
@@ -9,6 +10,7 @@
     margin-bottom: -121px;
     color: white;
     line-height: 1.4;
+    float: left;
     .frame {
       max-height: 1578px;
       border-radius: 5px;
@@ -97,6 +99,12 @@
             margin-right: 10px;
           }
         }
+        .mapGoogle {
+          iframe {
+            width: 100%;
+            height: 300px;
+          }
+        }
       }
     }
     .bg {
@@ -149,13 +157,61 @@
         margin: 0 auto;
         float: left;
         width: 100%;
-        .item {
+        .bgItem {
+          border-left: 1px solid #5cc2e9;
           background: rgba(37, 37, 37, .1);
-          height: 73px;
-          color: white;
-          text-align: center;
-          font-size: 25px;
-          font-weight: bold;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          cursor: pointer;
+          transition: color .3s ease-out, background-color .3s ease-out;
+          &:hover {
+            background-color: #dd4b39;
+          }
+          .item {
+            height: 73px;
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            vertical-align: middle;
+            &.socGP {
+              &::before {
+                content: "\f0d5";
+                font-family: "FontAwesome";
+                color: white;
+                font-size: 25px;
+                margin-right: 10px;
+              }
+            }
+            &.socFacebook {
+              &::before {
+                content: "\f09a";
+                font-family: "FontAwesome";
+                color: white;
+                font-size: 25px;
+                margin-right: 10px;
+              }
+            }
+            &.socInstagram {
+              &::before {
+                content: "\f16d";
+                font-family: "FontAwesome";
+                color: white;
+                font-size: 25px;
+                margin-right: 10px;
+              }
+            }
+            &.socTwitter {
+              &::before {
+                content: "\f099";
+                font-family: "FontAwesome";
+                color: white;
+                font-size: 25px;
+                margin-right: 10px;
+              }
+            }
+          }
         }
       }
     }
@@ -177,7 +233,7 @@
           margin-left: 20px;
           margin-top: 10px;
           display: inline;
-          a{
+          a {
             text-decoration: none;
             position: relative;
             padding: 5px;
@@ -190,5 +246,57 @@
       }
     }
 
+  }
+}//End Footer
+/*
+*
+*
+*******Màn Hình Di Động 480px
+*
+*
+*/
+@media screen and(max-width: 480px) {
+  .containerFooter {
+    background-color: #0f1217;
+    .locationArea{
+      padding: 87px 5px 166px 5px !important;
+      .frame{
+        padding: 25px 0 25px 0 !important;
+        .locationHolder{
+          text-align: center;
+          .mapGoogle{
+            margin-top: 20px;
+          }
+        }
+        .locationHeader{
+          span{
+            &::before{
+              border: none !important;
+              width: 0;
+            }
+            &::after{
+              border: none !important;
+              width: 0;
+            }
+          }
+        }
+      }
+    }
+    .socialsBox{
+      .frame{
+        .titleHeader{
+          font-size: 28px;
+        }
+        .socials {
+          .bgItem{
+            border-bottom: 1px solid #5cc2e9;
+          }
+        }
+      }
+    }
+    .wpFooter {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
   }
 }

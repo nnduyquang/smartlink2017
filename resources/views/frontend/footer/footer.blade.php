@@ -21,7 +21,17 @@
                         <div class="email">kythuat@smartlinks.vn</div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-xs-12"></div>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="mapGoogle">
+                        <iframe
+                                frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?key=
+                                AIzaSyC2bAo8qei62uV76LdpbCHnB-8lpTtZVL4
+    &q=20%2F13+Nguyễn+Trường+Tộ,+phường+12,+Quận+4,+Hồ+Chí+Minh,+Việt+Nam" allowfullscreen>
+                        </iframe>
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class="bg bgHCM"></div>
@@ -33,16 +43,24 @@
             </div>
             <div class="socials">
                 <div class="col-lg-3">
-                    <a class="item socGP">Kết Nối</a>
+                    <div class="row bgItem">
+                        <a href="#" class="item socGP">Kết Nối</a>
+                    </div>
                 </div>
                 <div class="col-lg-3">
-                    <a class="item socFacebook">Facebook</a>
+                    <div class="row bgItem">
+                        <a href="#" class="item socFacebook">Facebook</a>
+                    </div>
                 </div>
                 <div class="col-lg-3">
-                    <a class="item socInstagram">Instagram</a>
+                    <div class="row bgItem">
+                        <a href="#" class="item socInstagram">Instagram</a>
+                    </div>
                 </div>
                 <div class="col-lg-3">
-                    <a class="item socTwitter">Twitter</a>
+                    <div class="row bgItem">
+                        <a href="#" class="item socTwitter">Twitter</a>
+                    </div>
                 </div>
             </div>
         </div>

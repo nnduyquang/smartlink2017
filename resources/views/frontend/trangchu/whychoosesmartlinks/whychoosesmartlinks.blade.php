@@ -13,10 +13,10 @@
                 </div>
                 <div class="contentItem">
                     <header>
-                        <h5 class="entryTitle">Chuyên Nghiệp</h5>
+                        <h5 class="entryTitle">Google Partner</h5>
                     </header>
                     <div class="descriptionItem">
-                        Đội ngũ nhân viên có chứng chỉ chuyên gia được cấp bởi Google
+                        Smartlinks là đối tác trực tiếp từ Google Partner
                     </div>
                 </div>
             </div>

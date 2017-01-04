@@ -11995,9 +11995,23 @@ header:after {
   transition: all 300ms linear 0ms;
 }
 
+/*
+*
+*
+*******Màn Hình Di Động
+*
+*
+*/
+@media screen and (max-width: 480px) {
+  .containerNews .oneNew .imageNew .styleNew {
+    height: 250px !important;
+  }
+}
+
 .containerFooter {
   padding-left: 0;
   padding-right: 0;
+  float: left;
 }
 
 .containerFooter .locationArea {
@@ -12008,6 +12022,7 @@ header:after {
   margin-bottom: -121px;
   color: white;
   line-height: 1.4;
+  float: left;
 }
 
 .containerFooter .locationArea .frame {
@@ -12112,6 +12127,11 @@ header:after {
   margin-right: 10px;
 }
 
+.containerFooter .locationArea .frame .locationHolder .mapGoogle iframe {
+  width: 100%;
+  height: 300px;
+}
+
 .containerFooter .locationArea .bg {
   content: "";
   position: absolute;
@@ -12171,13 +12191,60 @@ header:after {
   width: 100%;
 }
 
-.containerFooter .socialsBox .frame .socials .item {
+.containerFooter .socialsBox .frame .socials .bgItem {
+  border-left: 1px solid #5cc2e9;
   background: rgba(37, 37, 37, 0.1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  -webkit-transition: color .3s ease-out, background-color .3s ease-out;
+  transition: color .3s ease-out, background-color .3s ease-out;
+}
+
+.containerFooter .socialsBox .frame .socials .bgItem:hover {
+  background-color: #dd4b39;
+}
+
+.containerFooter .socialsBox .frame .socials .bgItem .item {
   height: 73px;
   color: white;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.containerFooter .socialsBox .frame .socials .bgItem .item.socGP::before {
+  content: "\f0d5";
+  font-family: "FontAwesome";
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.containerFooter .socialsBox .frame .socials .bgItem .item.socFacebook::before {
+  content: "\f09a";
+  font-family: "FontAwesome";
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.containerFooter .socialsBox .frame .socials .bgItem .item.socInstagram::before {
+  content: "\f16d";
+  font-family: "FontAwesome";
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.containerFooter .socialsBox .frame .socials .bgItem .item.socTwitter::before {
+  content: "\f099";
+  font-family: "FontAwesome";
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
 }
 
 .containerFooter .menuFooter {
@@ -12211,4 +12278,47 @@ header:after {
   font-weight: bold;
   -webkit-transition: color .2s ease-in;
   transition: color .2s ease-in;
+}
+
+/*
+*
+*
+*******Màn Hình Di Động 480px
+*
+*
+*/
+@media screen and (max-width: 480px) {
+  .containerFooter {
+    background-color: #0f1217;
+  }
+  .containerFooter .locationArea {
+    padding: 87px 5px 166px 5px !important;
+  }
+  .containerFooter .locationArea .frame {
+    padding: 25px 0 25px 0 !important;
+  }
+  .containerFooter .locationArea .frame .locationHolder {
+    text-align: center;
+  }
+  .containerFooter .locationArea .frame .locationHolder .mapGoogle {
+    margin-top: 20px;
+  }
+  .containerFooter .locationArea .frame .locationHeader span::before {
+    border: none !important;
+    width: 0;
+  }
+  .containerFooter .locationArea .frame .locationHeader span::after {
+    border: none !important;
+    width: 0;
+  }
+  .containerFooter .socialsBox .frame .titleHeader {
+    font-size: 28px;
+  }
+  .containerFooter .socialsBox .frame .socials .bgItem {
+    border-bottom: 1px solid #5cc2e9;
+  }
+  .containerFooter .wpFooter {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
