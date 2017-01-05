@@ -11557,7 +11557,7 @@ header:after {
 *
 *
 //*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 736px) {
   .containerService .wpService .bgServices {
     display: none;
   }
@@ -11891,6 +11891,17 @@ header:after {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .containerPrices .onePrice {
+    border-radius: 0;
+    margin-top: 20px;
+    min-height: 300px;
+  }
+  .containerPrices .onePrice::after {
+    border-radius: 0 !important;
+  }
+}
+
 /*
 *
 *
@@ -12020,7 +12031,9 @@ header:after {
 .containerFooter {
   padding-left: 0;
   padding-right: 0;
+  background-color: #0f1217;
   float: left;
+  width: 100%;
 }
 
 .containerFooter .locationArea {

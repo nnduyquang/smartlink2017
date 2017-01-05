@@ -9,7 +9,7 @@
         </div>
         <div class="container">
             <div class="wpPrices col-lg-12">
-                <div class=" col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="onePrice bgcolor1">
                         <div class="priceHeader">
                             <h3 class="price"><span>$</span>200.00</h3>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="onePrice bgcolor2">
                         <div class="priceHeader">
                             <h3 class="price"><span>$</span>200.00</h3>
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="onePrice bgcolor3">
                         <div class="priceHeader">
                             <h3 class="price"><span>$</span>200.00</h3>

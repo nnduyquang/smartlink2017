@@ -8,7 +8,7 @@
                 <span>Liên Hệ</span>
             </strong>
             <div class="locationHolder">
-                <div class="col-lg-6 col-xs-12">
+                <div class="col-lg-6 col-xs-12 col-md-6 col-sm-6">
                     <strong class="titleHeader">Tòa Nhà Thủy Anh</strong>
                     <address class="titleAddress">
                         20/13 Nguyễn Trường Tộ,P.12,Q.4,TPHCM
@@ -21,7 +21,7 @@
                         <div class="email">kythuat@smartlinks.vn</div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-xs-12">
+                <div class="col-lg-6 col-xs-12 col-md-6 col-sm-6">
                     <div class="mapGoogle">
                         <iframe
                                 frameborder="0" style="border:0"
