@@ -11557,7 +11557,7 @@ header:after {
 *
 *
 //*/
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .containerService .wpService .bgServices {
     display: none;
   }

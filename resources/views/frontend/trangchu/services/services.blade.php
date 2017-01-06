@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-5 col-lg-5 col-md-5 serviceItem item3">
+        <div class="col-sm-6 col-lg-5 col-md-5 serviceItem item3">
             <div class="iconItem bgItem3 moveItem">
                 {{ Html::image('images/temps/iconResult1.png','',array('class'=>'styleIconServices3')) }}
             </div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-5 col-sm-offset-2 col-lg-offset-2 col-lg-5 col-md-offset-2 col-md-5 serviceItem item4">
+        <div class="col-sm-6 col-lg-offset-2 col-lg-5 col-md-offset-2 col-md-5 serviceItem item4">
             <div class="iconItem bgItem4 moveItem">
                 {{ Html::image('images/temps/iconResult1.png','',array('class'=>'styleIconServices4')) }}
             </div>
