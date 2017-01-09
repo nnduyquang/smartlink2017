@@ -21,6 +21,20 @@ body {
 
 header {
   padding: 20px 20px;
+  //height: 100px;
+  .hero-unit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+    opacity: 0.8;
+  }
   h1 {
     margin: 0;
     text-indent: -10000px;
@@ -31,6 +45,12 @@ header {
   }
   nav {
     float: right;
+    .wpnav {
+      float: left;
+      height: 100px;
+      display: flex;
+      align-items: center;
+    }
     h2 {
       line-height: 0;
       margin: 0;
@@ -38,7 +58,7 @@ header {
     }
     li {
       list-style-type: none;
-      float: left;
+      display: inline-block;
       margin-left: 20px;
       margin-top: 10px;
       a {
@@ -87,10 +107,10 @@ header {
     width: 100%;
   }
 }
+
 .emptySpace {
   height: 55px;
 }
-
 
 .headingText {
   text-align: center;
@@ -132,6 +152,7 @@ header {
     }
   }
 }
+
 /*
 *
 *
@@ -139,12 +160,21 @@ header {
 *
 *
 */
-@media screen and(max-width: 480px) {
+@media screen and(max-width: 1023px) {
   header {
     padding: 0;
+    .hero-unit {
+      position: static;
+    }
     nav {
       background: #555;
       width: 100%;
+      .wpnav {
+        float: none !important;
+        height: 100%;
+        display: block;
+        //align-items: center;
+      }
       li {
         float: none;
         width: 100%;

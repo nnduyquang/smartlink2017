@@ -10855,6 +10855,21 @@ header {
   padding: 20px 20px;
 }
 
+header .hero-unit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+header .fixed {
+  position: fixed;
+  top: 0;
+  opacity: 0.8;
+}
+
 header h1 {
   margin: 0;
   text-indent: -10000px;
@@ -10868,6 +10883,15 @@ header nav {
   float: right;
 }
 
+header nav .wpnav {
+  float: left;
+  height: 100px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
 header nav h2 {
   line-height: 0;
   margin: 0;
@@ -10876,7 +10900,7 @@ header nav h2 {
 
 header nav li {
   list-style-type: none;
-  float: left;
+  display: inline-block;
   margin-left: 20px;
   margin-top: 10px;
 }
@@ -10992,13 +11016,21 @@ header:after {
 *
 *
 */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1023px) {
   header {
     padding: 0;
+  }
+  header .hero-unit {
+    position: static;
   }
   header nav {
     background: #555;
     width: 100%;
+  }
+  header nav .wpnav {
+    float: none !important;
+    height: 100%;
+    display: block;
   }
   header nav li {
     float: none;
@@ -11061,6 +11093,7 @@ header:after {
   padding-bottom: 30px;
   padding-left: 15px;
   padding-right: 15px;
+  width: 100%;
 }
 
 .containerWhy .oneItem.border1 {

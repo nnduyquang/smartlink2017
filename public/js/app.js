@@ -10350,6 +10350,13 @@ __webpack_require__(5);
  * Created by nnduy on 27/12/2016.
  */
 $(document).ready(function(){
+    $(window).bind('scroll',function(){
+        if ($(window).scrollTop() > 50) {
+            $('.hero-unit').addClass('fixed');
+        } else {
+            $('.hero-unit').removeClass('fixed');
+        }
+    });
     $("#burgerNav").click(function(){
         $("header nav ul").toggleClass("open");
     });
