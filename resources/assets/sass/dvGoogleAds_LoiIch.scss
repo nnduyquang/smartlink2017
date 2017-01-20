@@ -1,0 +1,44 @@
+.wpLoiIch {
+  padding: 40px 0 0 0;
+  float: left;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .textDescribeLoiIch {
+    margin: 0 0 0 40px;
+    ul {
+      padding: 20px 0 0 0;
+      counter-reset: li;
+      li {
+        margin: 0 0 40px 2em;
+        padding: 4px 8px 4px 15px;
+        position: relative;
+        &::before {
+          content: counter(li);
+          counter-increment: li;
+          border: solid 2px #26b7e7;
+          position: absolute;
+          background-color: #eeeded;
+          width: 40px;
+          height: 40px;
+          top: -2px;
+          left: -40px;
+          margin: 0 8px 0 0;
+          text-align: center;
+          font-weight: bold;
+          padding: 8px;
+        }
+
+      }
+    }
+  }
+  .slogun {
+    text-align: center;
+    margin: 40px 0 40px 0;
+    h1 {
+      text-transform: uppercase;
+      font-size: 36px;
+    }
+  }
+}

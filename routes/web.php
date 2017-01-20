@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('frontend.trangchu.index');
 });
+
+Route::get('/google-adwords', function () {
+    return view('frontend.dvgoogleadwords.googleadwords');
+});

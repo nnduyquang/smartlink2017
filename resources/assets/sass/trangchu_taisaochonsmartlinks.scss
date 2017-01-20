@@ -72,30 +72,35 @@
       }
       &.bgItem2 {
         background-color: #fec606;
+        animation-delay: 0.2s;
       }
       &.bgItem2::after {
         box-shadow: 0 0 0 2px #fec606;
       }
       &.bgItem3 {
         background-color: #71ba51;
+        animation-delay: 0.4s;
       }
       &.bgItem3::after {
         box-shadow: 0 0 0 2px #71ba51;
       }
       &.bgItem4 {
         background-color: #6c8784;
+        animation-delay: 0.6s;
       }
       &.bgItem4::after {
         box-shadow: 0 0 0 2px #6c8784;
       }
       &.bgItem5 {
         background-color: #3d8eb9;
+        animation-delay: 0.8s;
       }
       &.bgItem5::after {
         box-shadow: 0 0 0 2px #3d8eb9;
       }
       &.bgItem6 {
         background-color: #d3324f;
+        animation-delay: 1s;
       }
       &.bgItem6::after {
         box-shadow: 0 0 0 2px #d3324f;

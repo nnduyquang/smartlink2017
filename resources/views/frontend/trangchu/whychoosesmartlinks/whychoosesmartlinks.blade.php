@@ -8,7 +8,7 @@
     <div class="containerWhy">
         <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border1">
-                <div class="iconItem bgItem1">
+                <div class="iconItem bgItem1 animated fadeInUp">
                     {{ Html::image('images/temps/iconResult1.png','',array('class'=>'styleIconWhy1')) }}
                 </div>
                 <div class="contentItem">
@@ -24,7 +24,7 @@
         <div class="col-md-4 col-xs-12 col-sm-6">
 
             <div class="oneItem border2">
-                <div class="iconItem bgItem2">
+                <div class="iconItem bgItem2 animated fadeInUp">
                     {{ Html::image('images/temps/iconResult2.png','',array('class'=>'styleIconWhy2')) }}
                 </div>
                 <div class="contentItem">
@@ -39,7 +39,7 @@
         </div>
         <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border3">
-                <div class="iconItem bgItem3">
+                <div class="iconItem bgItem3 animated fadeInUp">
                     {{ Html::image('images/temps/iconResult3.png','',array('class'=>'styleIconWhy3')) }}
                 </div>
                 <div class="contentItem">
@@ -54,7 +54,7 @@
         </div>
         <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border4">
-                <div class="iconItem bgItem4">
+                <div class="iconItem bgItem4 animated fadeInUp">
                     {{ Html::image('images/temps/iconResult4.png','',array('class'=>'styleIconWhy4')) }}
                 </div>
                 <div class="contentItem">
@@ -69,7 +69,7 @@
         </div>
         <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border5">
-                <div class="iconItem bgItem5">
+                <div class="iconItem bgItem5 animated fadeInUp">
                     {{ Html::image('images/temps/iconResult5.png','',array('class'=>'styleIconWhy5')) }}
                 </div>
                 <div class="contentItem">
@@ -84,7 +84,7 @@
         </div>
         <div class="col-md-4 col-xs-12 col-sm-6">
             <div class="oneItem border6">
-                <div class="iconItem bgItem6">
+                <div class="iconItem bgItem6 animated fadeInUp">
                     {{ Html::image('images/temps/iconResult6.png','',array('class'=>'styleIconWhy6')) }}
                 </div>
                 <div class="contentItem">

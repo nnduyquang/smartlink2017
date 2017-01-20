@@ -1,0 +1,9 @@
+@extends('master')
+@section('container')
+    @include('frontend.dvgoogleadwords.header.header')
+    @include('frontend.dvgoogleadwords.loiich.loiich')
+    @include('frontend.dvgoogleadwords.themanh.themanh')
+    @include('frontend.dvgoogleadwords.hieusuat.hieusuat')
+    @include('frontend.trangchu.prices.prices')
+    @include('frontend.trangchu.lienhebaogia.lienhebaogia')
+@stop

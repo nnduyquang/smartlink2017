@@ -1,18 +1,28 @@
 
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+//@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 //slick-carousel
 @import "node_modules/slick-carousel/slick/slick.scss";
 //Font Awesome
 @import "node_modules/font-awesome/scss/font-awesome.scss";
+//Animate
+@import "node_modules/animate.css/animate";
+
 @import "frontend";
-@import "taisaochonsmartlinks";
-@import "phantichwebsite";
-@import "dichvusmartlinks";
-@import "chuyenvientuvan";
-@import "hinhthucvagia";
-@import "lienhebaogia";
-@import "tintuc";
+@import "trangchu_taisaochonsmartlinks";
+@import "trangchu_phantichwebsite";
+@import "trangchu_dichvusmartlinks";
+@import "trangchu_chuyenvientuvan";
+@import "trangchu_hinhthucvagia";
+@import "trangchu_lienhebaogia";
+@import "trangchu_tintuc";
+@import "dvGoogleAds_LoiIch";
+@import "dvGoogleAd_TheManh";
+@import "dvGoogleAds_HieuSuat";
 @import "footer";

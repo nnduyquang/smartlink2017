@@ -10306,6 +10306,7 @@ window._ = __webpack_require__(4);
 window.$ = window.jQuery = __webpack_require__(0);
 __webpack_require__(3);
 __webpack_require__(5);
+// require('wow.js');
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
@@ -10349,23 +10350,28 @@ __webpack_require__(5);
 /**
  * Created by nnduy on 27/12/2016.
  */
-$(document).ready(function(){
-    $(window).bind('scroll',function(){
+$(document).ready(function () {
+    $(window).bind('scroll', function () {
         if ($(window).scrollTop() > 50) {
             $('.hero-unit').addClass('fixed');
         } else {
             $('.hero-unit').removeClass('fixed');
         }
     });
-    $("#burgerNav").click(function(){
+    $("#burgerNav").click(function () {
         $("header nav ul").toggleClass("open");
+    });
+    $('ul.nav li.dropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
     });
     $('.memberCarousel').slick({
         autoplay: true,
         autoplaySpeed: 2000,
-        prevArrow:'.arrowPrev',
-        nextArrow:'.arrowNext',
-        mobileFirst:true,
+        prevArrow: '.arrowPrev',
+        nextArrow: '.arrowNext',
+        mobileFirst: true,
         responsive: [{
             breakpoint: 1024,
             settings: {
@@ -10389,9 +10395,9 @@ $(document).ready(function(){
     $('.newCarousel').slick({
         autoplay: true,
         autoplaySpeed: 2000,
-        prevArrow:'.arrowPrev',
-        nextArrow:'.arrowNext',
-        mobileFirst:true,
+        prevArrow: '.arrowPrev',
+        nextArrow: '.arrowNext',
+        mobileFirst: true,
         responsive: [{
             breakpoint: 1024,
             settings: {
@@ -10411,6 +10417,39 @@ $(document).ready(function(){
             slidesToScroll: 1,
         }]
     });
+    new WOW().init();
+    var waypoint = new Waypoint({
+        element: document.getElementById('hieuSuat'),
+        handler: function () {
+            var options1 = {
+                useEasing: true,
+                useGrouping: false,
+                separator: ',',
+                decimal: '.',
+                prefix: '',
+                suffix: '+'
+            };
+            var options2 = {
+                useEasing: true,
+                useGrouping: false,
+                separator: ',',
+                decimal: '.',
+                prefix: '',
+                suffix: '%'
+            };
+            var numHs1 = new CountUp("hs1", 0, 500, 0, 1.5, options1);
+            var numHs2 = new CountUp("hs2", 0, 1000, 0, 2, options1);
+            var numHs3 = new CountUp("hs3", 0, 100, 0, 2.2, options2);
+            var numHs4 = new CountUp("hs4", 0, 500, 0, 2, options1);
+            numHs1.start();
+            numHs2.start();
+            numHs3.start();
+            numHs4.start();
+
+            waypoint.disable();
+        },
+        offset: '85%'
+    })
 
 });
 
@@ -32851,6 +32890,7 @@ module.exports = function(module) {
 
 __webpack_require__(1);
 __webpack_require__(2);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

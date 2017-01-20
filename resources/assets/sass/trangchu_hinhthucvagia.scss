@@ -26,6 +26,7 @@
     &.bgcolor1 {
       color: white;
       background-color: #455a64;
+      animation-duration: 2s;
     }
     &.bgcolor1::after {
       box-shadow: 0 0 10px #455a64;
@@ -33,6 +34,7 @@
     &.bgcolor2 {
       color: white;
       background-color: #0097a7;
+      animation-duration: 2s
     }
     &.bgcolor2::after {
       box-shadow: 0 0 10px #0097a7;
@@ -40,6 +42,7 @@
     &.bgcolor3 {
       color: white;
       background-color: #f1773d;
+      animation-duration: 2s
     }
     &.bgcolor3::after {
       box-shadow: 0 0 10px #f1773d;

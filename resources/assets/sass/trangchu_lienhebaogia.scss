@@ -8,7 +8,9 @@
 .containerContact{
   .containSwap {
     padding-top: 55px;
-    background-color: #455a64 !important;
+    //background-color: #F3AD1D !important;
+    background-image: url(../images/temps/casebg.png);
+    background-size: cover !important;
     padding-bottom: 111px !important;
     box-sizing: border-box;
     width: 100%;
@@ -17,13 +19,16 @@
     margin-top: -5px;
     .wpContact{
       .inputText,.inputArea{
-        background-color: rgba(255, 255, 255, 0.1);
+        //background-color: rgba(255, 255, 255, 0.1);
+        background-color: white;
         border-color: rgba(255, 255, 255, 0.01);
         box-shadow: none;
         margin-bottom: 0;
-        color: rgba(255, 255, 255, 0.5);
+        //color: rgba(255, 255, 255, 0.5);
+        color: black;
         border-radius: 4px;
         margin-bottom: 30px;
+        font-size: 18px;
 
         &:hover{
           border: solid 1px #f1773d;
@@ -31,10 +36,12 @@
       }
       .inputText{
         height: 50px;
+        font-size: 18px;
       }
       .btnContact{
         height: 50px;
         border-color: transparent;
+        font-size: 18px;
         color: white;
         font-weight: 700;
         border-radius: 3px;

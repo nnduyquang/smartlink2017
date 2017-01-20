@@ -1,0 +1,31 @@
+.wpHieuSuat {
+  margin: 0 0 40px 0;
+  float: left;
+  width: 100%;
+  .wpOneHieuSuat {
+    text-align: center;
+    img {
+      padding: 0 0 20px 0;
+      width: 122px;
+      height: 114px;
+    }
+    .contentHieuSuat {
+      .numberHieuSuat {
+        font-size: 48px;
+        font-weight: bold;
+        &.hs1 {
+          color: #6da7e9;
+        }
+        &.hs2 {
+          color: #60bdef;
+        }
+        &.hs3 {
+          color: #58d4a9;
+        }
+        &.hs4 {
+          color: #9fc73d;
+        }
+      }
+    }
+  }
+}

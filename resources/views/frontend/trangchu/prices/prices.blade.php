@@ -10,7 +10,7 @@
         <div class="container">
             <div class="wpPrices col-lg-12">
                 <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="onePrice bgcolor1">
+                    <div class="onePrice bgcolor1 wow bounceInLeft">
                         <div class="priceHeader">
                             <h3 class="price"><span>$</span>200.00</h3>
                             <h5 class="pricingTitle">SEOMARKT CONTENT</h5>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="onePrice bgcolor2">
+                    <div class="onePrice bgcolor2 wow bounceIn">
                         <div class="priceHeader">
                             <h3 class="price"><span>$</span>200.00</h3>
                             <h5 class="pricingTitle">SEOMARKT CONTENT</h5>
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="onePrice bgcolor3">
+                    <div class="onePrice bgcolor3 wow bounceInRight">
                         <div class="priceHeader">
                             <h3 class="price"><span>$</span>200.00</h3>
                             <h5 class="pricingTitle">SEOMARKT CONTENT</h5>

@@ -10,6 +10,7 @@ p, li, h1, h2, h3, h4 {
 body {
   background: #fbfbfb;
   color: #979798;
+  font-size: 17px;
 }
 
 .wrapper {
@@ -19,8 +20,12 @@ body {
   padding: 0 2%;
 }
 
+li {
+  list-style: none;
+}
+
 header {
-  padding: 20px 20px;
+  //padding: 20px 20px;
   //height: 100px;
   .hero-unit {
     position: absolute;
@@ -29,11 +34,13 @@ header {
     width: 100%;
     background-color: white;
     z-index: 100;
+    padding: 0 15px 0 15px;
   }
   .fixed {
     position: fixed;
     top: 0;
     opacity: 0.8;
+    box-shadow: 0px 2px 5px black;
   }
   h1 {
     margin: 0;
@@ -136,6 +143,7 @@ header {
     font-size: 26px;
     line-height: 1;
     font-weight: 700;
+    text-transform: uppercase;
     &.in {
       color: white;
     }
@@ -153,6 +161,32 @@ header {
   }
 }
 
+.wpContainHeader {
+  .dvBanner {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .wpTextHeader {
+    text-align: center;
+    h1 {
+      text-transform: uppercase;
+      &::after {
+        content: "";
+        display: block;
+        width: 44px;
+        height: 4px;
+        background: rgba(68, 221, 97, 1);
+        margin: 31px auto 29px;
+        border-radius: 2px;
+      }
+    }
+    .subTextHeading {
+      font-size: 16px;
+    }
+  }
+}
+
 /*
 *
 *
@@ -165,9 +199,10 @@ header {
     padding: 0;
     .hero-unit {
       position: static;
+      padding: 0;
     }
     nav {
-      background: #555;
+      background: white;
       width: 100%;
       .wpnav {
         float: none !important;
@@ -181,10 +216,9 @@ header {
         margin: 0;
         a {
           display: block;
-          text-align: center;
+          text-align: left;
           padding: 10px;
           color: #999;
-          border-top: 1px solid #4f4f4f;
         }
       }
       ul {

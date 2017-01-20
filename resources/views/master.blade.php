@@ -1,5 +1,5 @@
 <!DOCTYPE Html>
-<Html lang="en-US" class="lang-en_US">
+<Html lang="en-US" class="lang-en_US" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <meta http-equiv="content-type" content="text/Html;charset=UTF-8"/><!-- /Added by HTTrack -->
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset="utf-8">
@@ -14,7 +14,9 @@
 </head>
 <body>
 <header>
-    @include('frontend.header.menu')
+    <div style="height: 100px">
+        @include('frontend.header.menu')
+    </div>
 </header>
 <div id="mainBanner">
     @yield('sliderBanner')
@@ -25,5 +27,9 @@
 <div class="footer">
     @include('frontend.footer.footer')
 </div>
+{{ Html::script('js/wow.min.js') }}
+{{ Html::script('js/noframework.waypoints.min.js') }}
+{{ Html::script('js/countUp.min.js') }}
 </body>
+
 </Html>
