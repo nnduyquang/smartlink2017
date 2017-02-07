@@ -12,7 +12,7 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="{{URL::to('/google-adwords')}}">Google Adwords</a>
                         </li>
-                        <li><a href="#">Thiết Kế Website</a>
+                        <li><a href="{{URL::to('/thiet-ke-website')}}">Thiết Kế Website</a>
                         </li>
                         <li><a href="#">Quảng Cáo Facebook</a>
                         </li>

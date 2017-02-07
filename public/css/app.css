@@ -13885,7 +13885,7 @@ p, li, h1, h2, h3, h4 {
 body {
   background: #fbfbfb;
   color: #979798;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .wrapper {
@@ -15346,6 +15346,12 @@ header:after {
   color: #9fc73d;
 }
 
+@media screen and (max-width: 1023px) {
+  .wpHieuSuat {
+    float: none !important;
+  }
+}
+
 .containerFooter {
   padding-left: 0;
   padding-right: 0;
@@ -15712,6 +15718,12 @@ header:after {
   color: #9fc73d;
 }
 
+@media screen and (max-width: 1023px) {
+  .wpHieuSuat {
+    float: none !important;
+  }
+}
+
 .wpLoiIch {
   padding: 40px 0 0 0;
   float: left;
@@ -15802,6 +15814,22 @@ header:after {
   list-style: circle;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+}
+
+.wpTaiSao {
+  padding: 40px 40px 40px 40px;
+  margin: 0 0 80px 0;
+  min-height: 650px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wpTaiSao img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 100% 100%;
+  z-index: -1;
 }
 
 @charset "UTF-8";
@@ -16147,7 +16175,7 @@ p, li, h1, h2, h3, h4 {
 body {
   background: #fbfbfb;
   color: #979798;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .wrapper {

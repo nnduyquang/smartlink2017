@@ -7,6 +7,7 @@
 
 require('./bootstrap');
 require('./frontend/frontend');
+// require('./frontend/dvgoogleadwords');
 
 
 /**

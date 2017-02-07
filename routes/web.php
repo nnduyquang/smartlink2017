@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/google-adwords', function () {
     return view('frontend.dvgoogleadwords.googleadwords');
 });
+
+Route::get('/thiet-ke-website', function () {
+    return view('frontend.dvthietkeweb.thietkewebsite');
+});

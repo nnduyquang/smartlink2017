@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width">
     {{ Html::style('css/app.css') }}
     {{ Html::script('js/app.js') }}
+    {{ Html::script('js/smartlinks.js') }}
 </head>
 <body>
 <header>

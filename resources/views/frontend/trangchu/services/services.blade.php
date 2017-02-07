@@ -40,7 +40,7 @@
         </div>
         <div class="col-sm-6 col-lg-5 col-md-5 serviceItem item3">
             <div class="iconItem bgItem3 moveItem wow flip">
-                {{ Html::image('images/temps/thiet_ke_web_icon.png','',array('class'=>'styleIconServices3')) }}
+                <a href="{{URL::to('/thiet-ke-website')}}"> {{ Html::image('images/temps/thiet_ke_web_icon.png','',array('class'=>'styleIconServices3')) }}</a>
             </div>
             <div class="contentItem textItem">
                 <header>
