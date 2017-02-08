@@ -14123,7 +14123,7 @@ header:after {
     height: 0;
     overflow: hidden;
   }
-  header nav ul.open {
+  header nav ul.openBurger {
     height: auto;
   }
   header .wrapper {
@@ -15355,20 +15355,16 @@ header:after {
 .wpTaiSao {
   padding: 100px 40px 40px 40px;
   margin: 0 0 80px 0;
-  overflow: hidden;
-  position: relative;
+  background: url("../images/temps/thietkeweb_taisao_bg.png") no-repeat center center fixed;
+  background-size: cover;
+  float: left;
+  width: 100%;
 }
 
-.wpTaiSao img.dvWebTaiSaoBg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: 100% 100%;
-  z-index: -1;
-}
-
-.wpTaiSao .textDescribeTaiSao {
-  padding: 0 20px 0 70px;
+.wpTaiSao img.dvWebTaiSaoImageLeft {
+  margin-left: -20px;
+  width: 100%;
+  height: 100%;
 }
 
 .wpTaiSao .textDescribeTaiSao ul li {
@@ -15915,20 +15911,16 @@ header:after {
 .wpTaiSao {
   padding: 100px 40px 40px 40px;
   margin: 0 0 80px 0;
-  overflow: hidden;
-  position: relative;
+  background: url("../images/temps/thietkeweb_taisao_bg.png") no-repeat center center fixed;
+  background-size: cover;
+  float: left;
+  width: 100%;
 }
 
-.wpTaiSao img.dvWebTaiSaoBg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: 100% 100%;
-  z-index: -1;
-}
-
-.wpTaiSao .textDescribeTaiSao {
-  padding: 0 20px 0 70px;
+.wpTaiSao img.dvWebTaiSaoImageLeft {
+  margin-left: -20px;
+  width: 100%;
+  height: 100%;
 }
 
 .wpTaiSao .textDescribeTaiSao ul li {
@@ -16527,7 +16519,7 @@ header:after {
     height: 0;
     overflow: hidden;
   }
-  header nav ul.open {
+  header nav ul.openBurger {
     height: auto;
   }
   header .wrapper {

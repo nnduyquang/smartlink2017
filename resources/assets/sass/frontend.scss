@@ -208,7 +208,6 @@ header {
         float: none !important;
         height: 100%;
         display: block;
-        //align-items: center;
       }
       li {
         float: none;
@@ -225,7 +224,7 @@ header {
         height: 0;
         overflow: hidden;
       }
-      ul.open {
+      ul.openBurger {
         height: auto;
       }
     }
