@@ -13909,6 +13909,15 @@ header .hero-unit {
   padding: 0 15px 0 15px;
 }
 
+header .hero-unit .menuStyle {
+  float: right;
+}
+
+header .hero-unit .navbar-inverse {
+  background-color: white;
+  border-color: white;
+}
+
 header .fixed {
   position: fixed;
   top: 0;
@@ -13925,33 +13934,20 @@ header h1 {
   float: left;
 }
 
-header nav {
-  float: right;
-}
-
-header nav .wpnav {
-  float: left;
-  height: 100px;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-}
-
-header nav h2 {
+header h2 {
   line-height: 0;
   margin: 0;
   text-indent: -10000px;
 }
 
-header nav li {
+header li {
   list-style-type: none;
   display: inline-block;
   margin-left: 20px;
   margin-top: 10px;
 }
 
-header nav li a {
+header li a {
   text-decoration: none;
   position: relative;
   display: block;
@@ -13963,7 +13959,7 @@ header nav li a {
   transition: color .2s ease-in;
 }
 
-header nav li a::after {
+header li a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -13975,16 +13971,16 @@ header nav li a::after {
   transition: width .3s linear;
 }
 
-header nav li a:hover {
+header li a:hover {
   text-decoration: none;
   color: #F38F5F;
 }
 
-header nav li a:hover::after {
+header li a:hover::after {
   width: 100%;
 }
 
-header nav li a.current {
+header li a.current {
   color: #F38F5F;
 }
 
@@ -14098,6 +14094,13 @@ header:after {
   header .hero-unit {
     position: static;
     padding: 0;
+  }
+  header .hero-unit .menuStyle {
+    width: 100%;
+  }
+  header .hero-unit .navbar-inverse {
+    background-color: black;
+    border-color: black;
   }
   header nav {
     background: white;
@@ -15353,7 +15356,7 @@ header:after {
 }
 
 .wpTaiSao {
-  padding: 100px 40px 40px 40px;
+  padding: 100px 20px 40px 20px;
   margin: 0 0 80px 0;
   background: url("../images/temps/thietkeweb_taisao_bg.png") no-repeat center center fixed;
   background-size: cover;
@@ -15410,6 +15413,33 @@ header:after {
 @media screen and (max-width: 1023px) {
   .containerChatLuong .groupChatLuong {
     display: block;
+  }
+}
+
+.containerQuyTrinh {
+  position: relative;
+  width: 100%;
+}
+
+.containerQuyTrinh .bgQuyTrinh {
+  width: 100%;
+  height: 100%;
+}
+
+.containerQuyTrinh .swapHeaderQuyTrinh {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 55px;
+}
+
+@media screen and (max-width: 1023px) {
+  .containerQuyTrinh {
+    margin-top: 140px;
+  }
+  .containerQuyTrinh .swapHeaderQuyTrinh {
+    top: -120px;
   }
 }
 
@@ -15908,8 +15938,35 @@ header:after {
   }
 }
 
+.containerQuyTrinh {
+  position: relative;
+  width: 100%;
+}
+
+.containerQuyTrinh .bgQuyTrinh {
+  width: 100%;
+  height: 100%;
+}
+
+.containerQuyTrinh .swapHeaderQuyTrinh {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 55px;
+}
+
+@media screen and (max-width: 1023px) {
+  .containerQuyTrinh {
+    margin-top: 140px;
+  }
+  .containerQuyTrinh .swapHeaderQuyTrinh {
+    top: -120px;
+  }
+}
+
 .wpTaiSao {
-  padding: 100px 40px 40px 40px;
+  padding: 100px 20px 40px 20px;
   margin: 0 0 80px 0;
   background: url("../images/temps/thietkeweb_taisao_bg.png") no-repeat center center fixed;
   background-size: cover;
@@ -16305,6 +16362,15 @@ header .hero-unit {
   padding: 0 15px 0 15px;
 }
 
+header .hero-unit .menuStyle {
+  float: right;
+}
+
+header .hero-unit .navbar-inverse {
+  background-color: white;
+  border-color: white;
+}
+
 header .fixed {
   position: fixed;
   top: 0;
@@ -16321,33 +16387,20 @@ header h1 {
   float: left;
 }
 
-header nav {
-  float: right;
-}
-
-header nav .wpnav {
-  float: left;
-  height: 100px;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-}
-
-header nav h2 {
+header h2 {
   line-height: 0;
   margin: 0;
   text-indent: -10000px;
 }
 
-header nav li {
+header li {
   list-style-type: none;
   display: inline-block;
   margin-left: 20px;
   margin-top: 10px;
 }
 
-header nav li a {
+header li a {
   text-decoration: none;
   position: relative;
   display: block;
@@ -16359,7 +16412,7 @@ header nav li a {
   transition: color .2s ease-in;
 }
 
-header nav li a::after {
+header li a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -16371,16 +16424,16 @@ header nav li a::after {
   transition: width .3s linear;
 }
 
-header nav li a:hover {
+header li a:hover {
   text-decoration: none;
   color: #F38F5F;
 }
 
-header nav li a:hover::after {
+header li a:hover::after {
   width: 100%;
 }
 
-header nav li a.current {
+header li a.current {
   color: #F38F5F;
 }
 
@@ -16494,6 +16547,13 @@ header:after {
   header .hero-unit {
     position: static;
     padding: 0;
+  }
+  header .hero-unit .menuStyle {
+    width: 100%;
+  }
+  header .hero-unit .navbar-inverse {
+    background-color: black;
+    border-color: black;
   }
   header nav {
     background: white;

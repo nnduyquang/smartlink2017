@@ -35,6 +35,15 @@ header {
     background-color: white;
     z-index: 100;
     padding: 0 15px 0 15px;
+    .menuStyle {
+      float: right;
+      //background-color: white;
+      //border-color: white;
+    }
+    .navbar-inverse {
+      background-color: white;
+      border-color: white;
+    }
   }
   .fixed {
     position: fixed;
@@ -50,56 +59,57 @@ header {
     width: 254px;
     float: left;
   }
-  nav {
-    float: right;
-    .wpnav {
-      float: left;
-      height: 100px;
-      display: flex;
-      align-items: center;
+  //nav {
+  //float: right;
+  //.wpnav {
+  //  //width: 100%;
+  //  //float: left;
+  //  //height: 100px;
+  //  //display: flex;
+  //  //align-items: center;
+  //}
+  h2 {
+    line-height: 0;
+    margin: 0;
+    text-indent: -10000px;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    a {
+      text-decoration: none;
+      position: relative;
+      display: block;
+      padding: 5px;
+      color: #4e4e4e;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: color .2s ease-in;
     }
-    h2 {
-      line-height: 0;
-      margin: 0;
-      text-indent: -10000px;
+    a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: -9px;
+      width: 0;
+      height: 2px;
+      background-color: #F38F5F;
+      transition: width .3s linear;
     }
-    li {
-      list-style-type: none;
-      display: inline-block;
-      margin-left: 20px;
-      margin-top: 10px;
-      a {
-        text-decoration: none;
-        position: relative;
-        display: block;
-        padding: 5px;
-        color: #4e4e4e;
-        text-transform: uppercase;
-        font-weight: bold;
-        transition: color .2s ease-in;
-      }
-      a::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: -9px;
-        width: 0;
-        height: 2px;
-        background-color: #F38F5F;
-        transition: width .3s linear;
-      }
-      a:hover {
-        text-decoration: none;
-        color: #F38F5F;
-      }
-      a:hover::after {
-        width: 100%;
-      }
-      a.current {
-        color: #F38F5F;
-      }
+    a:hover {
+      text-decoration: none;
+      color: #F38F5F;
+    }
+    a:hover::after {
+      width: 100%;
+    }
+    a.current {
+      color: #F38F5F;
     }
   }
+  //}
   &:after {
     display: block;
     content: "";
@@ -200,8 +210,17 @@ header {
     .hero-unit {
       position: static;
       padding: 0;
+      .menuStyle {
+        width: 100%;
+      }
+      .navbar-inverse {
+        background-color: black;
+        border-color: black;
+      }
+
     }
     nav {
+      //float: none;
       background: white;
       width: 100%;
       .wpnav {

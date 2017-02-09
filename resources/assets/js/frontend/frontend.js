@@ -9,9 +9,9 @@ $(document).ready(function () {
             $('.hero-unit').removeClass('fixed');
         }
     });
-    $("#burgerNav").click(function () {
-        $("header nav ul").toggleClass("openBurger");
-    });
+    // $("#burgerNav").click(function () {
+    //     $("header nav ul").toggleClass("openBurger");
+    // });
     // $('ul.nav li.dropdown').hover(function() {
     //     $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
     // }, function() {
