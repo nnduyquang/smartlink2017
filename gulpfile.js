@@ -19,11 +19,13 @@ elixir((mix) => {
         'app.scss',
         ''
     ])
+    .sass('login.scss','public/css')
     .webpack('app.js')
     .scripts([
         'frontend/frontend.js',
         'frontend/dvgoogleadwords.js',
     ],'public/js/smartlinks.js')
+    .scripts('backend/login/login.js','public/js')
     .copy(
     'node_modules/font-awesome/fonts/**', 'public/fonts'
     )
