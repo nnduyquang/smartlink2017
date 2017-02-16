@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/nnduyquang/smartlink2017#readme",
   "dependencies": {
+    "admin-lte": "^2.3.11",
     "animate.css": "^3.5.2",
     "countup.js": "^1.8.1",
     "font-awesome": "^4.7.0",

@@ -15,7 +15,7 @@ header('Content-Type: text/html');?>
     {{ Html::script('js/login.js') }}
 </head>
 
-<body>
+<body class="loginbody ">
 <div class="wrapper">
     <form class="login" role="form" method="POST" action="{{ route('login') }}">
         {{ csrf_field() }}
