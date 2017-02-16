@@ -34,10 +34,14 @@ Route::get('/sml_login', function () {
 Route::post('sml_login', 'AuthController@login')->name('login');
 Route::get('sml_logout', 'AuthController@logout')->name('logout');
 Route::group(['middleware' => ['auth']], function () {
+    Route::resource('sml_admin/users','UserController');
     Route::get('sml_admin/dashboard', function () {
         return view('backend.admin.dashboard');
     });
-    Route::get('sml_admin/users', function () {
-        return view('backend.admin.user');
+    Route::get('sml_admin', function () {
+        return redirect('sml_admin/dashboard');
     });
+//    Route::get('sml_admin/users', function () {
+//        return view('backend.admin.user');
+//    });
 });

@@ -17,7 +17,7 @@ class AuthController extends Controller
         $email=$request['email'];
         $password=$request['password'];
         if(Auth::attempt(['email'=>$email,'password'=>$password])){
-            return redirect()->intended('sml_admin/dashboard');
+            return redirect('sml_admin/dashboard');
         }else{
             $errors = new MessageBag(['errors' => ['Thông Tin Đăng Nhập Không Hợp Lệ.']]);
             return Redirect::back()->withErrors($errors);
