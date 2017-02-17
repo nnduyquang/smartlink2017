@@ -29,7 +29,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        $roles = Role::lists('display_name','id');
+        $roles = Role::pluck('display_name','id');
         return view('backend.admin.user.create',compact('roles'));
     }
 
@@ -80,10 +80,10 @@ class UserController extends Controller
     public function edit($id)
     {
         $user = User::find($id);
-        $roles = Role::lists('display_name','id');
-        $userRole = $user->roles->lists('id','id')->toArray();
+        $roles = Role::pluck('display_name','id');
+        $userRole = $user->roles->pluck('id','id')->toArray();
 
-        return view('users.edit',compact('user','roles','userRole'));
+        return view('backend.admin.user.edit',compact('user','roles','userRole'));
     }
 
     /**

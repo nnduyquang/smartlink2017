@@ -256,8 +256,9 @@ desired effect
             <ul class="sidebar-menu">
                 <li class="header">HEADER</li>
                 <!-- Optionally, you can add icons to the links -->
-                <li class="active"><a href="dashboard"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
-                <li><a href="users"><i class="fa fa-link"></i> <span>Người Dùng</span></a></li>
+                <li class="active"><a href="{{ route('dashboard') }}"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
+                <li><a href="{{ route('users.index') }}"><i class="fa fa-link"></i> <span>Người Dùng</span></a></li>
+                <li><a href="roles"><i class="fa fa-link"></i> <span>Quyền</span></a></li>
                 <li class="treeview">
                     <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
                         <span class="pull-right-container">
