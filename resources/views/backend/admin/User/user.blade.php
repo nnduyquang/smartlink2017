@@ -45,5 +45,5 @@
             </tr>
         @endforeach
     </table>
-    {!! $data->render() !!}
+    {!! $data->links() !!}
 @stop

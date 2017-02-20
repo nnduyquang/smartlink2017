@@ -258,7 +258,7 @@ desired effect
                 <!-- Optionally, you can add icons to the links -->
                 <li class="active"><a href="{{ route('dashboard') }}"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
                 <li><a href="{{ route('users.index') }}"><i class="fa fa-link"></i> <span>Người Dùng</span></a></li>
-                <li><a href="roles"><i class="fa fa-link"></i> <span>Quyền</span></a></li>
+                <li><a href="{{ route('roles.index') }}"><i class="fa fa-link"></i> <span>Quyền</span></a></li>
                 <li class="treeview">
                     <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
                         <span class="pull-right-container">
