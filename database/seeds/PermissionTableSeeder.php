@@ -34,25 +34,45 @@ class PermissionTableSeeder extends Seeder
 //                'description' => 'Delete Role'
 //            ]
 //,
+//            [
+//                'name' => 'user-list',
+//                'display_name' => 'Display User Listing',
+//                'description' => 'See only Listing Of User'
+//            ],
+//            [
+//                'name' => 'user-create',
+//                'display_name' => 'Create User',
+//                'description' => 'Create New User'
+//            ],
+//            [
+//                'name' => 'user-edit',
+//                'display_name' => 'Edit User',
+//                'description' => 'Edit User'
+//            ],
+//            [
+//                'name' => 'user-delete',
+//                'display_name' => 'Delete User',
+//                'description' => 'Delete User'
+//            ]
             [
-                'name' => 'user-list',
-                'display_name' => 'Display User Listing',
-                'description' => 'See only Listing Of User'
+                'name' => 'tintuc-list',
+                'display_name' => 'Display Tin Tức Listing',
+                'description' => 'See only Listing Of Tin Tức'
             ],
             [
-                'name' => 'user-create',
-                'display_name' => 'Create User',
-                'description' => 'Create New User'
+                'name' => 'tintuc-create',
+                'display_name' => 'Create Tin Tức',
+                'description' => 'Create Tin Tức'
             ],
             [
-                'name' => 'user-edit',
-                'display_name' => 'Edit User',
-                'description' => 'Edit User'
+                'name' => 'tintuc-edit',
+                'display_name' => 'Edit Tin Tức',
+                'description' => 'Edit Tin Tức'
             ],
             [
-                'name' => 'user-delete',
-                'display_name' => 'Delete User',
-                'description' => 'Delete User'
+                'name' => 'tintuc-delete',
+                'display_name' => 'Delete Tin Tức',
+                'description' => 'Delete Tin Tức'
             ]
         ];
         foreach ($permission as $key => $value) {

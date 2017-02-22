@@ -26,6 +26,9 @@ elixir((mix) => {
         'frontend/dvgoogleadwords.js',
     ],'public/js/smartlinks.js')
     .scripts('backend/login/login.js','public/js')
+    .scripts([
+        'backend/tintuc/tintuc.js'
+    ],'public/js/backend.js')
     .copy(
     'node_modules/font-awesome/fonts/**', 'public/fonts'
     )

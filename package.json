@@ -38,6 +38,7 @@
     "countup.js": "^1.8.1",
     "font-awesome": "^4.7.0",
     "slick-carousel": "^1.6.0",
+    "summernote": "^0.8.2",
     "waypoints": "^4.0.1",
     "wow.js": "git+https://github.com/graingert/WOW.git"
   }

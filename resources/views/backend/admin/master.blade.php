@@ -14,6 +14,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="{{asset("../node_modules/admin-lte/bootstrap/css/bootstrap.min.css")}}">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Summer Note -->
+    <link rel="stylesheet" href="{{asset("../node_modules/summernote/dist/summernote.css")}}">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Theme style -->
@@ -263,6 +265,7 @@ desired effect
                 @if(Auth::user()->can('role-list'))
                 <li><a href="{{ route('roles.index') }}"><i class="fa fa-link"></i> <span>Quyền</span></a></li>
                 @endif
+                <li><a href="{{ route('tintucs.index') }}"><i class="fa fa-link"></i> <span>Tin Tức</span></a></li>
                 <li class="treeview">
                     <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
                         <span class="pull-right-container">
@@ -400,8 +403,12 @@ desired effect
 <script src="{{asset("../node_modules/admin-lte/plugins/jQuery/jquery-2.2.3.min.js")}}"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="{{asset("../node_modules/admin-lte/bootstrap/js/bootstrap.min.js")}}"></script>
+<!-- Summer note -->
+<script src="{{asset("../node_modules/summernote/dist/summernote.min.js")}}"></script>
 <!-- AdminLTE App -->
 <script src="{{asset("../node_modules/admin-lte/dist/js/app.min.js")}}"></script>
+<!-- Backend Js -->
+{{ Html::script('js/backend.js') }}
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
