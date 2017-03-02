@@ -20,7 +20,7 @@
             </ul>
         </div>
     @endif
-    {!! Form::open(array('route' => 'tintucs.store','method'=>'POST')) !!}
+    {!! Form::open(array('route' => 'tintucs.store','method'=>'POST','files'=>true)) !!}
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
@@ -43,11 +43,16 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Hình Chủ Đề</strong>
-                {!! Form::text('hinhchude',null,array('placeholder' => 'Hình Chủ Đề','class' => 'form-control')) !!}
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        {{ Html::image('','',array('id'=>'showHinhChuDe'))}}
+                    </div>
+                </div>
+                {!! Form::file('hinhchude',array('id'=>'chooseHinhChuDe','accept'=>'image/jpeg,image/jpg,image/png')) !!}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-            <button type="submit" class="btn btn-primary">Đăng Tin</button>
+            <button id="btnDangTin" type="submit" class="btn btn-primary">Đăng Tin</button>
         </div>
     </div>
     {!! Form::close() !!}

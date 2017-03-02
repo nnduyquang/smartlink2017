@@ -20,6 +20,7 @@ elixir((mix) => {
         ''
     ])
     .sass('login.scss','public/css')
+    .sass('backend.scss','public/css')
     .webpack('app.js')
     .scripts([
         'frontend/frontend.js',
