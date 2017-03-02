@@ -25,7 +25,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Tiêu Đề:</strong>
-                {!! Form::text('name', null, array('placeholder' => 'Nội dung','class' => 'form-control')) !!}
+                {!! Form::text('tieude', null, array('placeholder' => 'Nội dung','class' => 'form-control')) !!}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">

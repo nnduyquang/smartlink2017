@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\TinTuc;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Response;
@@ -40,9 +41,27 @@ class TinTucController extends Controller
      */
     public function store(Request $request)
     {
+        $tintuc=new TinTuc();
+        $tintuc->tieude=$request->input('tieude');
+        $tintuc->motangan=$request->input('motangan');
+        $tintuc->noidung=$request->input('noidung');
         $file = Input::file('hinhchude');
-        $extension = File::extension($file->getClientOriginalName());
-        dd($extension);
+        $directory="images/news/";/////////////////////Be carefull không có public
+        $ran = round(microtime(true) * 1000);
+        $filename = $file->getClientOriginalName();
+        $filename = str_replace('.' . $file->getClientOriginalExtension(), '', $filename);
+        $filename=str_replace(' ', '-', $filename);
+        $filename = preg_replace('/[^A-Za-z0-9\-]/', '', $filename);
+        $filename=preg_replace('/-+/', '',$filename);
+        if(strlen($filename)>15){
+            $filename=substr($filename,0,15);
+        }
+        $filename = $filename . '_' . $ran . '.' . $file->getClientOriginalExtension();
+        $file->move($directory,$filename);
+        $tintuc->anhtieubieu=$filename;
+        $tintuc->user_id = Auth::user()->id;
+        $tintuc->save();
+
     }
 
     /**
@@ -63,7 +82,8 @@ class TinTucController extends Controller
      */
     public function edit($id)
     {
-        //
+        $tintuc = TinTuc::find($id);
+        return view('backend.admin.tintuc.edit',compact('tintuc'));
     }
 
     /**
@@ -75,7 +95,29 @@ class TinTucController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $tintuc = TinTuc::find($id);
+        $tintuc->tieude=$request->input('tieude');
+        $tintuc->motangan=$request->input('motangan');
+        $tintuc->noidung=$request->input('noidung');
+        $file = Input::file('hinhchude');
+        if($file){
+            $ran = round(microtime(true) * 1000);
+            $filename = $file->getClientOriginalName();
+            $filename = str_replace('.' . $file->getClientOriginalExtension(), '', $filename);
+            $filename=str_replace(' ', '-', $filename);
+            $filename = preg_replace('/[^A-Za-z0-9\-]/', '', $filename);
+            $filename=preg_replace('/-+/', '',$filename);
+            if(strlen($filename)>15){
+                $filename=substr($filename,0,15);
+            }
+            $filename = $filename . '_' . $ran . '.' . $file->getClientOriginalExtension();
+            $directory="images/news/";
+            $file->move($directory,$filename);
+            $tintuc->anhtieubieu=$filename;
+        }
+        $tintuc->save();
+        return redirect()->route('tintucs.index')
+            ->with('success','Tin Tức updated successfully');
     }
 
     /**
