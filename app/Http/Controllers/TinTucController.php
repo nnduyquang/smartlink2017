@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\TinTucRequest;
 use Illuminate\Http\Request;
 use App\TinTuc;
 use Illuminate\Support\Facades\Auth;
@@ -39,9 +40,16 @@ class TinTucController extends Controller
      * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(TinTucRequest $request)
     {
         $tintuc=new TinTuc();
+        $path=$request->input('tieude');
+        $path= vn_str_filter($path);//Chuyen tat ca tu co dau thanh ko dau
+        $path=preg_replace('/\s+/', ' ',$path);//Xoa khoang trang thua, tra lai 1 khoang trang
+        $path=str_replace(' ','-',$path);
+        $ran = round(microtime(true) * 1000);
+        $path=$path.'-'.$ran;
+        $tintuc->path=$path;
         $tintuc->tieude=$request->input('tieude');
         $tintuc->motangan=$request->input('motangan');
         $tintuc->noidung=$request->input('noidung');
@@ -61,6 +69,8 @@ class TinTucController extends Controller
         $tintuc->anhtieubieu=$filename;
         $tintuc->user_id = Auth::user()->id;
         $tintuc->save();
+        return redirect()->route('tintucs.index')
+            ->with('success','Tin Tức store successfully');
 
     }
 
@@ -93,9 +103,16 @@ class TinTucController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(TinTucRequest $request, $id)
     {
         $tintuc = TinTuc::find($id);
+        $path=$request->input('tieude');
+        $path= vn_str_filter($path);//Chuyen tat ca tu co dau thanh ko dau
+        $path=preg_replace('/\s+/', ' ',$path);//Xoa khoang trang thua, tra lai 1 khoang trang
+        $path=str_replace(' ','-',$path);
+        $ran = round(microtime(true) * 1000);
+        $path=$path.'-'.$ran;
+        $tintuc->path=$path;
         $tintuc->tieude=$request->input('tieude');
         $tintuc->motangan=$request->input('motangan');
         $tintuc->noidung=$request->input('noidung');

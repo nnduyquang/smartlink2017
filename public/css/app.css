@@ -13973,7 +13973,7 @@ header li a::after {
 
 header li a:hover {
   text-decoration: none;
-  color: #F38F5F;
+  color: #F38F5F !important;
 }
 
 header li a:hover::after {
@@ -14099,7 +14099,7 @@ header:after {
     width: 100%;
   }
   header .hero-unit .navbar-inverse {
-    background-color: black;
+    background-color: black !important;
     border-color: black;
   }
   header nav {
@@ -14891,7 +14891,7 @@ header:after {
   text-align: center;
 }
 
-.containerConsultants .memberArrowControl .arrowNav .arrowPrev, .containerConsultants .memberArrowControl .arrowNav .arrowNext {
+.containerConsultants .memberArrowControl .arrowNav .arrowPrev1, .containerConsultants .memberArrowControl .arrowNav .arrowNext1 {
   display: inline-block;
   color: white;
   margin: 5px;
@@ -16431,7 +16431,7 @@ header li a::after {
 
 header li a:hover {
   text-decoration: none;
-  color: #F38F5F;
+  color: #F38F5F !important;
 }
 
 header li a:hover::after {
@@ -16557,7 +16557,7 @@ header:after {
     width: 100%;
   }
   header .hero-unit .navbar-inverse {
-    background-color: black;
+    background-color: black !important;
     border-color: black;
   }
   header nav {
@@ -17087,7 +17087,7 @@ footer a, footer a:link {
   text-align: center;
 }
 
-.containerConsultants .memberArrowControl .arrowNav .arrowPrev, .containerConsultants .memberArrowControl .arrowNav .arrowNext {
+.containerConsultants .memberArrowControl .arrowNav .arrowPrev1, .containerConsultants .memberArrowControl .arrowNav .arrowNext1 {
   display: inline-block;
   color: white;
   margin: 5px;

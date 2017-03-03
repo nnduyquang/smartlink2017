@@ -10358,66 +10358,69 @@ $(document).ready(function () {
             $('.hero-unit').removeClass('fixed');
         }
     });
-    // $("#burgerNav").click(function () {
-    //     $("header nav ul").toggleClass("openBurger");
-    // });
-    // $('ul.nav li.dropdown').hover(function() {
-    //     $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-    // }, function() {
-    //     $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-    // });
-    $('.memberCarousel').slick({
-        autoplay: true,
-        autoplaySpeed: 2000,
-        prevArrow: '.arrowPrev',
-        nextArrow: '.arrowNext',
-        mobileFirst: true,
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            }
-        }, {
+    function memberCarousel(){
+        $('.memberCarousel').not('.slick-initialized').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '.arrowPrev1',
+            nextArrow: '.arrowNext1',
+            mobileFirst: true,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            }, {
 
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            }, {
+                breakpoint: 480,
+                slidesToShow: 1,
                 slidesToScroll: 1,
-            }
-        }, {
-            breakpoint: 480,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-        }]
-    });
+            }]
+        });
+    }
+    memberCarousel();
+    function newCarousel(){
+        $('.newCarousel').not('.slick-initialized').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '.arrowPrev',
+            nextArrow: '.arrowNext',
+            mobileFirst: true,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            }, {
 
-    $('.newCarousel').slick({
-        autoplay: true,
-        autoplaySpeed: 2000,
-        prevArrow: '.arrowPrev',
-        nextArrow: '.arrowNext',
-        mobileFirst: true,
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 4,
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            }, {
+                breakpoint: 480,
+                slidesToShow: 1,
                 slidesToScroll: 1,
-            }
-        }, {
+            }]
+        });
+    }
+    newCarousel();
 
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-            }
-        }, {
-            breakpoint: 480,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-        }]
-    });
+
+
+
+    // if ($("#hieuSuat").length) {
     new WOW().init();
+    // }
 });
 
 

@@ -22,7 +22,7 @@
         <tr>
             <th>STT</th>
             <th>Tiêu Đề</th>
-            <th>Description</th>
+            <th>Tác Giả</th>
             <th width="280px">Action</th>
         </tr>
         @foreach ($tintucs as $key => $tintuc)
@@ -30,9 +30,8 @@
                 <tr>
                     <td>{{ ++$i }}</td>
                     <td>{{ $tintuc->tieude }}</td>
-                    <td>{{ $tintuc->mota }}</td>
+                    <td>{{ $tintuc->users->name }}</td>
                     <td>
-                        <a class="btn btn-info" href="{{ route('tintucs.show',$tintuc->id) }}">Show</a>
                         @permission(('tintuc-edit'))
                         <a class="btn btn-primary" href="{{ route('tintucs.edit',$tintuc->id) }}">Edit</a>
                         @endpermission

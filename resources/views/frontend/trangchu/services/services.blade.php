@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-lg-5 col-md-5 serviceItem item3">
+        <div class="col-sm-6 col-xs-12 col-lg-5 col-md-5 serviceItem item3">
             <div class="iconItem bgItem3 moveItem wow flip">
                 <a href="{{URL::to('/thiet-ke-website')}}"> {{ Html::image('images/temps/thiet_ke_web_icon.png','',array('class'=>'styleIconServices3')) }}</a>
             </div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-lg-offset-2 col-lg-5 col-md-offset-2 col-md-5 serviceItem item4">
+        <div class="col-sm-6 col-xs-12 col-lg-offset-2 col-lg-5 col-md-offset-2 col-md-5 serviceItem item4">
             <div class="iconItem bgItem4 moveItem wow flip">
                 {{ Html::image('images/temps/thiet_ke_logo_icon.png','',array('class'=>'styleIconServices4')) }}
             </div>

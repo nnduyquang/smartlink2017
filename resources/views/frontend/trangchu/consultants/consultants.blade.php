@@ -124,14 +124,12 @@
         </div>
         <div class="memberArrowControl">
             <div class="arrowNav">
-                <div class="arrowPrev">
+                <div class="arrowPrev1">
                     <i class="fa fa-angle-left"></i>
                 </div>
-                <div class="arrowNext">
+                <div class="arrowNext1">
                     <i class="fa fa-angle-right"></i>
                 </div>
-
-
             </div>
         </div>
     </div>
