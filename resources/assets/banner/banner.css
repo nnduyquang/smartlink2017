@@ -1,0 +1,31 @@
+input[type="submit"],
+button,
+a.button,
+.widget input[type="submit"],
+.widget button,
+.widget a.button {
+    font-family: 'helveticaneueultralight';
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #12d9e0;
+}
+/* SLIDESHOW & OVERLAY ICONS */
+
+.slideshow .nivo-directionNav a.nivo-nextNav:before,
+.slideshow .nivo-directionNav a.nivo-prevNav:before,
+html * .slideshow .ls-container .ls-nav-prev:before,
+html * .slideshow .ls-container .ls-nav-next:before,
+.portfolio ul.thumbs li .overlay .p-icon,
+.block.portfolio ul.thumbs li .overlay .p-icon,
+.gallery .navigation.preview-navigation .prev:before,
+.gallery .navigation.preview-navigation .next:before,
+.gallery .preview li a span.overlay .p-icon,
+.gallery-three-columns ul li a span.overlay .p-icon,
+.gallery-four-columns ul li a span.overlay .p-icon,
+.image.wrap-box .fancy .overlay:before {
+    border-color: #ffffff;
+    color: #12d9e0;
+}

@@ -35,5 +35,7 @@ elixir((mix) => {
     )
     .copy('node_modules/wow.js/dist/wow.min.js','public/js')
     .copy('node_modules/waypoints/lib/noframework.waypoints.min.js','public/js')
-    .copy('node_modules/countup.js/dist/countUp.min.js','public/js');
+    .copy('node_modules/countup.js/dist/countUp.min.js','public/js')
+    .copy('resources/assets/banner/','public/css/banner')
+    .copy('resources/assets/js/banner/','public/js/banner');
 });

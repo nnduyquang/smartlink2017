@@ -10,8 +10,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     {{ Html::style('css/app.css') }}
-    {{ Html::script('js/app.js') }}
-    {{ Html::script('js/smartlinks.js') }}
+    {{--{{ Html::style('css/banner/layerslider.css') }}--}}
+    {{--{{ Html::style('css/banner/fonts/icons5d0b.css') }}--}}
+    {{--{{ Html::style('css/banner/style5d0b.css') }}--}}
+    {{--<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>--}}
+    {{ Html::style('css/banner/banner.css') }}
+
 </head>
 <body>
 <header>
@@ -31,6 +35,16 @@
 {{ Html::script('js/wow.min.js') }}
 {{ Html::script('js/noframework.waypoints.min.js') }}
 {{ Html::script('js/countUp.min.js') }}
+{{--<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>--}}
+{{--{{ Html::script('js/banner/loading.js') }}--}}
+{{--{{ Html::script('js/banner/layerslider.kreaturamedia.jquery.js') }}--}}
+{{--{{ Html::script('js/banner/layerslider.transitions.js') }}--}}
+{{--<script data-cfasync="false" type="text/javascript">var lsjQuery = jQuery;</script>--}}
+{{--{{ Html::script('js/banner/layerslider.kreaturamedia.jquery.js',array('data-cfasync'=>'false')) }}--}}
+{{--{{ Html::script('js/banner/greensock.js',array('data-cfasync'=>'false')) }}--}}
+{{--<script data-cfasync="false" type="text/javascript"> lsjQuery(document).ready(function() { if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_1','jquery'); } else { lsjQuery("#layerslider_1").layerSlider({responsive: false, responsiveUnder: 1280, layersContainer: 1280, startInViewport: false, skin: 'noskin', globalBGColor: '#f0f4f7', hoverPrevNext: false, lazyLoad: false, yourLogoStyle: 'left: 10px; top: 10px;', cbInit: function(element) { }, cbStart: function(data) { }, cbStop: function(data) { }, cbPause: function(data) { }, cbAnimStart: function(data) { }, cbAnimStop: function(data) { }, cbPrev: function(data) { }, cbNext: function(data) { }, skinsPath: 'http://smartlinks.vn/wp-content/plugins/LayerSlider/static/skins/'}) } }); </script>--}}
+{{ Html::script('js/app.js') }}
+{{ Html::script('js/smartlinks.js') }}
 </body>
 
 </Html>

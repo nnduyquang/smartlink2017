@@ -13990,15 +13990,6 @@ header:after {
   clear: both;
 }
 
-#mainBanner {
-  max-height: 500px;
-  overflow: hidden;
-}
-
-#mainBanner img {
-  width: 100%;
-}
-
 .emptySpace {
   height: 55px;
 }
@@ -16446,15 +16437,6 @@ header:after {
   display: block;
   content: "";
   clear: both;
-}
-
-#mainBanner {
-  max-height: 500px;
-  overflow: hidden;
-}
-
-#mainBanner img {
-  width: 100%;
 }
 
 .emptySpace {
