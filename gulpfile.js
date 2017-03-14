@@ -21,11 +21,12 @@ elixir((mix) => {
     ])
     .sass('login.scss','public/css')
     .sass('backend.scss','public/css')
-    .webpack('app.js')
+    // .webpack('app.js')
     .scripts([
-        'frontend/frontend.js',
-        'frontend/dvgoogleadwords.js',
-    ],'public/js/smartlinks.js')
+        // 'frontend/frontend.js',
+        // 'frontend/dvgoogleadwords.js',
+        'frontend/scripts.js'
+    ],'public/js/scripts.js')
     .scripts('backend/login/login.js','public/js')
     .scripts([
         'backend/tintuc/tintuc.js'
@@ -33,9 +34,18 @@ elixir((mix) => {
     .copy(
     'node_modules/font-awesome/fonts/**', 'public/fonts'
     )
-    .copy('node_modules/wow.js/dist/wow.min.js','public/js')
-    .copy('node_modules/waypoints/lib/noframework.waypoints.min.js','public/js')
-    .copy('node_modules/countup.js/dist/countUp.min.js','public/js')
+    .scripts([
+        './node_modules/jquery/dist/jquery.min.js',
+        './node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js',
+        './node_modules/wow.js/dist/wow.min.js',
+        './node_modules/waypoints/lib/noframework.waypoints.min.js',
+        './node_modules/countup.js/dist/countUp.min.js',
+        'rdNavbar/core.min.js',
+        './node_modules/slick-carousel/slick/slick.min.js',
+    ],'public/js/core.js')
+    // .copy('node_modules/wow.js/dist/wow.min.js','public/js')
+    // .copy('node_modules/waypoints/lib/noframework.waypoints.min.js','public/js')
+    // .copy('node_modules/countup.js/dist/countUp.min.js','public/js')
     .copy('resources/assets/banner/','public/css/banner')
     .copy('resources/assets/js/banner/','public/js/banner');
 });
