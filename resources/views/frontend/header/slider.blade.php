@@ -1,9 +1,9 @@
 <link rel='stylesheet' id='layerslider-css'
       href='css/banner/layerslider.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='codeus-fonts-icons-css' href='css/banner/fonts/icons5d0b.css'
-      type='text/css' media='all'/>
-<link rel='stylesheet' id='codeus-styles-css' href='css/banner/style5d0b.css?ver=4.3.9' type='text/css'
-      media='all'/>
+{{--<link rel='stylesheet' id='codeus-fonts-icons-css' href='css/banner/fonts/icons5d0b.css'--}}
+      {{--type='text/css' media='all'/>--}}
+{{--<link rel='stylesheet' id='codeus-styles-css' href='css/banner/style5d0b.css?ver=4.3.9' type='text/css'--}}
+      {{--media='all'/>--}}
 <script type='text/javascript'
         src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>
 <style type="text/css">
@@ -57,22 +57,26 @@
 <div id="" class="block slideshow noscript">
 
     <div id="layerslider_1" class="ls-wp-container" style="width:100%;height:470px;margin:0 auto;margin-bottom: 0px;">
-        <div class="ls-slide" data-ls="slidedelay:7000;transition2d:5;"><img class="ls-l"
-                                                                             style="top:-120px;left:50%;white-space: nowrap;"
-                                                                             data-ls="offsetxin:0;offsetyin:120;durationin:3500;easingin:easeOutQuad;offsetxout:0;durationout:4000;easingout:easeInExpo;scalexout:2;scaleyout:2;parallaxlevel:-2;"
-                                                                             src="images/banners/slider_background_1.jpg"
-                                                                             alt=""><img class="ls-l"
-                                                                                         style="top:-490px;left:50%;white-space: nowrap;"
-                                                                                         data-ls="offsetxin:0;offsetyin:490;durationin:3600;easingin:easeOutQuad;offsetxout:0;durationout:4000;easingout:easeInExpo;scalexout:2.5;scaleyout:2.5;parallaxlevel:-1;"
-                                                                                         src="images/banners/stars-parallax1.png"
-                                                                                         alt=""><img class="ls-l"
-                                                                                                     style="top:-900px;left:75%;white-space: nowrap;"
-                                                                                                     data-ls="offsetxin:0;offsetyin:1800;durationin:1300;delayin:1000;easingin:linear;fadein:false;scalexin:2;scaleyin:1.5;offsetxout:0;durationout:0;fadeout:false;"
-                                                                                                     src="images/banners/star-big-parallax11.png"
-                                                                                                     alt=""><img
-                    class="ls-l" style="top:-900px;left:25%;white-space: nowrap;"
-                    data-ls="offsetxin:0;offsetyin:1800;delayin:1800;easingin:linear;fadein:false;scalexin:5;scaleyin:4;offsetxout:0;durationout:0;fadeout:false;"
-                    src="images/banners/star-big-parallax11.png" alt="">
+        <div class="ls-slide" data-ls="slidedelay:7000;transition2d:5;">
+            <img class="ls-l"
+                 style="top:-120px;left:50%;white-space: nowrap;"
+                 data-ls="offsetxin:0;offsetyin:120;durationin:3500;easingin:easeOutQuad;offsetxout:0;durationout:4000;easingout:easeInExpo;scalexout:2;scaleyout:2;parallaxlevel:-2;"
+                 src="images/banners/slider_background_1.jpg"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-490px;left:50%;white-space: nowrap;"
+                 data-ls="offsetxin:0;offsetyin:490;durationin:3600;easingin:easeOutQuad;offsetxout:0;durationout:4000;easingout:easeInExpo;scalexout:2.5;scaleyout:2.5;parallaxlevel:-1;"
+                 src="images/banners/stars-parallax1.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-900px;left:75%;white-space: nowrap;"
+                 data-ls="offsetxin:0;offsetyin:1800;durationin:1300;delayin:1000;easingin:linear;fadein:false;scalexin:2;scaleyin:1.5;offsetxout:0;durationout:0;fadeout:false;"
+                 src="images/banners/star-big-parallax11.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-900px;left:25%;white-space: nowrap;"
+                 data-ls="offsetxin:0;offsetyin:1800;delayin:1800;easingin:linear;fadein:false;scalexin:5;scaleyin:4;offsetxout:0;durationout:0;fadeout:false;"
+                 src="images/banners/star-big-parallax11.png" alt="">
             <p class="ls-l"
                style="top:360px;left:50%;width:530px;height:530px;background:#FFAF70;border-radius:265px;white-space: nowrap;"
                data-ls="offsetxin:0;offsetyin:300;durationin:4000;delayin:300;easingin:easeOutQuad;fadein:false;offsetxout:0;offsetyout:100px;durationout:4000;easingout:easeInExpo;scalexout:3;scaleyout:3;parallaxlevel:1;"></p>
@@ -131,22 +135,25 @@
                 <span style="color: #71dfca;">Luôn Là Mục Tiêu</span> Của Chúng Tôi
             </div>
         </div>
-        <div class="ls-slide" data-ls="slidedelay:5000;transition2d:104;"><img class="ls-l"
-                                                                               style="top:0px;left:50%;white-space: nowrap;"
-                                                                               data-ls="offsetxin:0;durationin:2000;easingin:easeInQuart;offsetxout:0;durationout:1000;easingout:easeInQuart;"
-                                                                               src="images/banners/slider_background_2.jpg"
-                                                                               alt=""><img class="ls-l"
-                                                                                           style="top:-63px;left:680px;white-space: nowrap;"
-                                                                                           data-ls="offsetxin:right;durationin:1500;delayin:1000;easingin:easeOutQuart;rotatein:100;offsetxout:left;durationout:2000;easingout:easeInQuart;rotateout:-120;parallaxlevel:3;"
-                                                                                           src="images/banners/tem_google_partner1.png"
-                                                                                           alt=""><img class="ls-l"
-                                                                                                       style="top:-69px;left:232px;white-space: nowrap;"
-                                                                                                       data-ls="offsetxin:right;durationin:1700;delayin:900;easingin:easeOutQuart;rotatein:90;offsetxout:left;durationout:500;easingout:easeInQuart;rotateout:-90;parallaxlevel:7;"
-                                                                                                       src="images/banners/marka2.png"
-                                                                                                       alt=""><img
-                    class="ls-l" style="top:230px;left:1147px;white-space: nowrap;"
-                    data-ls="offsetxin:right;durationin:2000;delayin:1000;easingin:easeOutQuart;rotatein:320;offsetxout:left;durationout:2500;easingout:easeInQuart;rotateout:-360;parallaxlevel:1;"
-                    src="images/banners/marka1.png" alt="">
+        <div class="ls-slide" data-ls="slidedelay:5000;transition2d:104;">
+            <img class="ls-l"
+                 style="top:0px;left:50%;white-space: nowrap;"
+                 data-ls="offsetxin:0;durationin:2000;easingin:easeInQuart;offsetxout:0;durationout:1000;easingout:easeInQuart;"
+                 src="images/banners/slider_background_2.jpg"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-63px;left:680px;white-space: nowrap;"
+                 data-ls="offsetxin:right;durationin:1500;delayin:1000;easingin:easeOutQuart;rotatein:100;offsetxout:left;durationout:2000;easingout:easeInQuart;rotateout:-120;parallaxlevel:3;"
+                 src="images/banners/tem_google_partner1.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-69px;left:232px;white-space: nowrap;"
+                 data-ls="offsetxin:right;durationin:1700;delayin:900;easingin:easeOutQuart;rotatein:90;offsetxout:left;durationout:500;easingout:easeInQuart;rotateout:-90;parallaxlevel:7;"
+                 src="images/banners/marka2.png"
+                 alt="">
+            <img class="ls-l" style="top:230px;left:1147px;white-space: nowrap;"
+                 data-ls="offsetxin:right;durationin:2000;delayin:1000;easingin:easeOutQuart;rotatein:320;offsetxout:left;durationout:2500;easingout:easeInQuart;rotateout:-360;parallaxlevel:1;"
+                 src="images/banners/marka1.png" alt="">
             <div class="ls-l"
                  style="top:255px;left:650px;width:17px;height:17px;background:#48afdb;border-radius:10px;white-space: nowrap;"
                  data-ls="offsetxin:right;durationin:1200;delayin:1100;easingin:easeOutQuart;offsetxout:-600;durationout:1000;easingout:easeInQuart;parallaxlevel:4;"></div>
@@ -186,11 +193,12 @@
                 Hơn 1000 Khách Hàng Thân Thiết
             </div>
         </div>
-        <div class="ls-slide" data-ls="slidedelay:5500;timeshift:500; transition2d: all;"><img class="ls-l"
-                                                                                               style="top:50%;left:50%;white-space: nowrap;"
-                                                                                               data-ls="offsetxin:0;durationin:1500;easingin:easeInOutSine;offsetxout:0;durationout:1500;easingout:easeInOutSine;"
-                                                                                               src="images/banners/slider_background_5.jpg"
-                                                                                               alt="">
+        <div class="ls-slide" data-ls="slidedelay:5500;timeshift:500; transition2d: all;">
+            <img class="ls-l"
+                 style="top:50%;left:50%;white-space: nowrap;"
+                 data-ls="offsetxin:0;durationin:1500;easingin:easeInOutSine;offsetxout:0;durationout:1500;easingout:easeInOutSine;"
+                 src="images/banners/slider_background_5.jpg"
+                 alt="">
             <div class="ls-l"
                  style="top:15px;left:810px;width:13px;height:13px;background:#60dbc4;border-radius:15px;white-space: nowrap;"
                  data-ls="offsetxin:-10;offsetyin:top;durationin:600;delayin:1000;easingin:easeOutQuart;offsetxout:left;easingout:easeInQuart;parallaxlevel:-5;"></div>
@@ -208,41 +216,50 @@
                  data-ls="offsetxin:-60;offsetyin:bottom;durationin:700;delayin:1400;easingin:easeOutQuart;offsetxout:left;easingout:easeInQuart;parallaxlevel:5;"></div>
             <img class="ls-l" style="top:154px;left:304px;white-space: nowrap;"
                  data-ls="offsetxin:-150;offsetyin:bottom;durationin:1500;delayin:300;easingin:easeOutQuart;rotatein:-190;offsetxout:-150;offsetyout:bottom;durationout:700;easingout:easeInQuart;rotateout:190;parallaxlevel:2;"
-                 src="images/banners/Slide5_El2.png" alt=""><img class="ls-l"
-                                                                             style="top:350px;left:500px;white-space: nowrap;"
-                                                                             data-ls="offsetxin:50;offsetyin:bottom;delayin:700;easingin:easeOutQuart;rotatein:50;rotatexin:50;offsetxout:50;offsetyout:bottom;durationout:700;easingout:easeInQuart;rotateout:-50;parallaxlevel:1;"
-                                                                             src="images/banners/Slide5_El1.png"
-                                                                             alt=""><img class="ls-l"
-                                                                                         style="top:-60px;left:360px;white-space: nowrap;"
-                                                                                         data-ls="offsetyin:top;delayin:800;easingin:easeOutQuart;rotatein:-60;rotatexin:-90;offsetxout:80;offsetyout:top;durationout:700;easingout:easeInQuart;rotateout:60;parallaxlevel:1;"
-                                                                                         src="images/banners/Slide5_El4.png"
-                                                                                         alt=""><img class="ls-l"
-                                                                                                     style="top:265px;left:90px;white-space: nowrap;"
-                                                                                                     data-ls="offsetxin:-600;offsetyin:300;durationin:1500;delayin:500;easingin:easeOutQuart;rotatein:100;offsetxout:-600;offsetyout:300;durationout:700;easingout:easeInQuart;rotateout:-100;parallaxlevel:1;"
-                                                                                                     src="images/banners/Slide5_El5.png"
-                                                                                                     alt=""><img
-                    class="ls-l" style="top:385px;left:310px;white-space: nowrap;"
-                    data-ls="offsetxin:-50;offsetyin:bottom;durationin:800;delayin:800;easingin:easeOutQuart;rotatein:-70;offsetxout:-50;offsetyout:bottom;durationout:500;easingout:easeInQuart;rotateout:70;parallaxlevel:1;"
-                    src="images/banners/Slide5_El3.png" alt=""><img class="ls-l"
-                                                                                style="top:180px;left:200px;white-space: nowrap;"
-                                                                                data-ls="offsetxin:left;offsetyin:50;durationin:3000;delayin:1400;easingin:easeOutQuart;rotatein:-2500;offsetxout:left;offsetyout:50;durationout:700;easingout:easeInQuart;rotateout:1000;parallaxlevel:3;"
-                                                                                src="images/banners/Slide5_El6.png"
-                                                                                alt=""><img class="ls-l"
-                                                                                            style="top:10px;left:180px;white-space: nowrap;"
-                                                                                            data-ls="offsetxin:-30;offsetyin:top;durationin:700;delayin:700;easingin:easeOutQuart;rotatein:-40;offsetxout:-30;offsetyout:top;durationout:700;easingout:easeInQuart;rotateout:40;parallaxlevel:1;"
-                                                                                            src="images/banners/Slide5_El7.png"
-                                                                                            alt=""><img class="ls-l"
-                                                                                                        style="top:-30px;left:40px;white-space: nowrap;"
-                                                                                                        data-ls="offsetxin:left;offsetyin:-300;durationin:1800;delayin:800;easingin:easeOutQuart;rotatein:120;offsetxout:left;offsetyout:-300;durationout:700;easingout:easeInQuart;rotateout:-120;parallaxlevel:1;"
-                                                                                                        src="images/banners/Slide5_El8.png"
-                                                                                                        alt=""><img
-                    class="ls-l" style="top:290px;left:735px;white-space: nowrap;"
-                    data-ls="offsetxin:30;offsetyin:250;durationin:5000;delayin:500;easingin:easeOutQuart;rotatein:-5000;offsetxout:30;offsetyout:250;durationout:700;easingout:easeInQuart;parallaxlevel:1;"
-                    src="images/banners/Slide5_El9.png" alt=""><img class="ls-l"
-                                                                                style="top:330px;left:780px;white-space: nowrap;"
-                                                                                data-ls="offsetxin:40;offsetyin:200;durationin:2000;delayin:1700;easingin:easeOutQuart;rotatein:-120;offsetxout:40;offsetyout:200;durationout:700;easingout:easeInQuart;parallaxlevel:2;"
-                                                                                src="images/banners/Slide5_El10.png"
-                                                                                alt="">
+                 src="images/banners/Slide5_El2.png" alt="">
+            <img class="ls-l"
+                 style="top:350px;left:500px;white-space: nowrap;"
+                 data-ls="offsetxin:50;offsetyin:bottom;delayin:700;easingin:easeOutQuart;rotatein:50;rotatexin:50;offsetxout:50;offsetyout:bottom;durationout:700;easingout:easeInQuart;rotateout:-50;parallaxlevel:1;"
+                 src="images/banners/Slide5_El1.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-60px;left:360px;white-space: nowrap;"
+                 data-ls="offsetyin:top;delayin:800;easingin:easeOutQuart;rotatein:-60;rotatexin:-90;offsetxout:80;offsetyout:top;durationout:700;easingout:easeInQuart;rotateout:60;parallaxlevel:1;"
+                 src="images/banners/Slide5_El4.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:265px;left:90px;white-space: nowrap;"
+                 data-ls="offsetxin:-600;offsetyin:300;durationin:1500;delayin:500;easingin:easeOutQuart;rotatein:100;offsetxout:-600;offsetyout:300;durationout:700;easingout:easeInQuart;rotateout:-100;parallaxlevel:1;"
+                 src="images/banners/Slide5_El5.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:385px;left:310px;white-space: nowrap;"
+                 data-ls="offsetxin:-50;offsetyin:bottom;durationin:800;delayin:800;easingin:easeOutQuart;rotatein:-70;offsetxout:-50;offsetyout:bottom;durationout:500;easingout:easeInQuart;rotateout:70;parallaxlevel:1;"
+                 src="images/banners/Slide5_El3.png" alt="">
+            <img class="ls-l"
+                 style="top:180px;left:200px;white-space: nowrap;"
+                 data-ls="offsetxin:left;offsetyin:50;durationin:3000;delayin:1400;easingin:easeOutQuart;rotatein:-2500;offsetxout:left;offsetyout:50;durationout:700;easingout:easeInQuart;rotateout:1000;parallaxlevel:3;"
+                 src="images/banners/Slide5_El6.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:10px;left:180px;white-space: nowrap;"
+                 data-ls="offsetxin:-30;offsetyin:top;durationin:700;delayin:700;easingin:easeOutQuart;rotatein:-40;offsetxout:-30;offsetyout:top;durationout:700;easingout:easeInQuart;rotateout:40;parallaxlevel:1;"
+                 src="images/banners/Slide5_El7.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-30px;left:40px;white-space: nowrap;"
+                 data-ls="offsetxin:left;offsetyin:-300;durationin:1800;delayin:800;easingin:easeOutQuart;rotatein:120;offsetxout:left;offsetyout:-300;durationout:700;easingout:easeInQuart;rotateout:-120;parallaxlevel:1;"
+                 src="images/banners/Slide5_El8.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:290px;left:735px;white-space: nowrap;"
+                 data-ls="offsetxin:30;offsetyin:250;durationin:5000;delayin:500;easingin:easeOutQuart;rotatein:-5000;offsetxout:30;offsetyout:250;durationout:700;easingout:easeInQuart;parallaxlevel:1;"
+                 src="images/banners/Slide5_El9.png" alt="">
+            <img class="ls-l"
+                 style="top:330px;left:780px;white-space: nowrap;"
+                 data-ls="offsetxin:40;offsetyin:200;durationin:2000;delayin:1700;easingin:easeOutQuart;rotatein:-120;offsetxout:40;offsetyout:200;durationout:700;easingout:easeInQuart;parallaxlevel:2;"
+                 src="images/banners/Slide5_El10.png"
+                 alt="">
             <div class="ls-l"
                  style="top:61px;left:738px;font-family:helveticaneueultralight;font-size:80px;color:#ffffff;white-space: nowrap;"
                  data-ls="offsetxin:50;offsetyin:top;delayin:800;easingin:easeOutQuart;rotatein:-50;offsetxout:left;offsetyout:-60;durationout:1000;easingout:easeInBack;rotateout:30;parallaxlevel:-3;">
@@ -263,11 +280,12 @@
                 <a href="lien-he/index.html" class="button" style="background-color: #723362;">Liên Hệ Báo Giá </a>
             </div>
         </div>
-        <div class="ls-slide" data-ls="slidedelay:5300;timeshift:300; transition2d: all;"><img class="ls-l"
-                                                                                               style="top:0px;left:50%;white-space: nowrap;"
-                                                                                               data-ls="offsetxin:0;easingin:easeInOutSine;offsetxout:0;durationout:800;easingout:easeInOutSine;"
-                                                                                               src="images/banners/slider_background_3.jpg"
-                                                                                               alt="">
+        <div class="ls-slide" data-ls="slidedelay:5300;timeshift:300; transition2d: all;">
+            <img class="ls-l"
+                 style="top:0px;left:50%;white-space: nowrap;"
+                 data-ls="offsetxin:0;easingin:easeInOutSine;offsetxout:0;durationout:800;easingout:easeInOutSine;"
+                 src="images/banners/slider_background_3.jpg"
+                 alt="">
             <div class="ls-l"
                  style="top:300px;left:715px;width:8px;height:8px;background:#48afdb;border-radius:10px;white-space: nowrap;"
                  data-ls="offsetxin:-300;offsetyin:30;durationin:2000;delayin:700;easingin:easeOutExpo;offsetxout:left;durationout:2000;easingout:easeInBack;parallaxlevel:1;"></div>
@@ -317,15 +335,17 @@
             <img class="ls-l" style="top:39px;left:87px;white-space: nowrap;"
                  data-ls="offsetxin:0;offsetyin:-200;durationin:1500;delayin:400;easingin:easeOutBounce;skewxin:-2;skewyin:2;offsetxout:left;durationout:2000;easingout:easeInBack;skewxout:20;parallaxlevel:1;"
                  src="images/banners/gads6.png" alt=""></div>
-        <div class="ls-slide" data-ls="slidedelay:5500;timeshift:500; transition2d: all;"><img class="ls-l"
-                                                                                               style="top:50%;left:50%;white-space: nowrap;"
-                                                                                               data-ls="offsetxin:0;durationin:2000;easingin:easeInOutSine;offsetxout:0;"
-                                                                                               src="images/banners/slider_background_4.jpg"
-                                                                                               alt=""><img class="ls-l"
-                                                                                                           style="top:1px;left:777px;white-space: nowrap;"
-                                                                                                           data-ls="offsetxin:250;durationin:1500;easingin:easeOutQuart;scalexin:0.1;scaleyin:0.1;offsetxout:-600;offsetyout:250;durationout:2000;easingout:easeInQuart;scalexout:2;scaleyout:2;parallaxlevel:-1;"
-                                                                                                           src="images/banners/facebook1.png"
-                                                                                                           alt="">
+        <div class="ls-slide" data-ls="slidedelay:5500;timeshift:500; transition2d: all;">
+            <img class="ls-l"
+                 style="top:50%;left:50%;white-space: nowrap;"
+                 data-ls="offsetxin:0;durationin:2000;easingin:easeInOutSine;offsetxout:0;"
+                 src="images/banners/slider_background_4.jpg"
+                 alt="">
+            <img class="ls-l"
+                 style="top:1px;left:777px;white-space: nowrap;"
+                 data-ls="offsetxin:250;durationin:1500;easingin:easeOutQuart;scalexin:0.1;scaleyin:0.1;offsetxout:-600;offsetyout:250;durationout:2000;easingout:easeInQuart;scalexout:2;scaleyout:2;parallaxlevel:-1;"
+                 src="images/banners/facebook1.png"
+                 alt="">
             <div class="ls-l"
                  style="top:75px;left:1020px;width:28px;height:28px;background:#fff;border-radius:25px;white-space: nowrap;"
                  data-ls="offsetxin:-80;offsetyin:120;delayin:700;easingin:easeOutQuart;scalexin:0.5;scaleyin:0.5;offsetxout:-650;offsetyout:-200;durationout:1000;easingout:easeInQuart;"></div>
@@ -379,30 +399,36 @@
                 <a href="dich-vu/facebook-ads/index.html" class="button" style="background-color: #fa566e;">Chi Tiết</a>
             </div>
         </div>
-        <div class="ls-slide" data-ls="slidedelay:5300;timeshift:300; transition2d: all;"><img class="ls-l"
-                                                                                               style="top:50%;left:50%;white-space: nowrap;"
-                                                                                               data-ls="offsetxin:0;durationin:1500;easingin:easeInOutSine;offsetxout:0;durationout:1000;easingout:easeInOutSine;"
-                                                                                               src="images/banners/slider_background_7.jpg"
-                                                                                               alt=""><img class="ls-l"
-                                                                                                           style="top:167px;left:-80px;white-space: nowrap;"
-                                                                                                           data-ls="offsetxin:0;offsetyin:bottom;delayin:900;easingin:easeOutQuart;fadein:false;offsetxout:0;offsetyout:bottom;durationout:500;easingout:easeInQuart;rotateyout:-50;parallaxlevel:1;"
-                                                                                                           src="images/banners/tablet_mockup.png"
-                                                                                                           alt=""><img
-                    class="ls-l" style="top:240px;left:140px;white-space: nowrap;"
-                    data-ls="offsetxin:0;delayin:1600;easingin:easeOutQuart;offsetxout:0;offsetyout:100;durationout:100;easingout:easeInOutSine;parallaxlevel:2;"
-                    src="images/banners/phone_shadow.png" alt=""><img class="ls-l"
-                                                                                  style="top:165px;left:125px;white-space: nowrap;"
-                                                                                  data-ls="offsetxin:0;offsetyin:top;durationin:1400;delayin:1100;easingin:easeOutQuart;fadein:false;offsetxout:0;offsetyout:top;durationout:700;easingout:easeInQuart;fadeout:false;rotateyout:500;skewxout:50;parallaxlevel:3;"
-                                                                                  src="images/banners/phone_mockup.png"
-                                                                                  alt=""><img class="ls-l"
-                                                                                              style="top:-30px;left:-35px;white-space: nowrap;"
-                                                                                              data-ls="offsetxin:0;offsetyin:top;delayin:1200;easingin:easeOutQuart;offsetxout:0;offsetyout:top;durationout:700;easingout:easeInQuart;parallaxlevel:1;"
-                                                                                              src="images/banners/corner_light_2.png"
-                                                                                              alt=""><img class="ls-l"
-                                                                                                          style="top:415px;left:795px;white-space: nowrap;"
-                                                                                                          data-ls="offsetxin:0;offsetyin:bottom;durationin:700;delayin:1400;easingin:easeOutQuart;fadein:false;offsetxout:0;offsetyout:bottom;easingout:easeInQuart;parallaxlevel:-1;"
-                                                                                                          src="images/banners/corner_light_1.png"
-                                                                                                          alt="">
+        <div class="ls-slide" data-ls="slidedelay:5300;timeshift:300; transition2d: all;">
+            <img class="ls-l"
+                 style="top:50%;left:50%;white-space: nowrap;"
+                 data-ls="offsetxin:0;durationin:1500;easingin:easeInOutSine;offsetxout:0;durationout:1000;easingout:easeInOutSine;"
+                 src="images/banners/slider_background_7.jpg"
+                 alt="">
+            <img class="ls-l"
+                 style="top:167px;left:-80px;white-space: nowrap;"
+                 data-ls="offsetxin:0;offsetyin:bottom;delayin:900;easingin:easeOutQuart;fadein:false;offsetxout:0;offsetyout:bottom;durationout:500;easingout:easeInQuart;rotateyout:-50;parallaxlevel:1;"
+                 src="images/banners/tablet_mockup.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:240px;left:140px;white-space: nowrap;"
+                 data-ls="offsetxin:0;delayin:1600;easingin:easeOutQuart;offsetxout:0;offsetyout:100;durationout:100;easingout:easeInOutSine;parallaxlevel:2;"
+                 src="images/banners/phone_shadow.png" alt="">
+            <img class="ls-l"
+                 style="top:165px;left:125px;white-space: nowrap;"
+                 data-ls="offsetxin:0;offsetyin:top;durationin:1400;delayin:1100;easingin:easeOutQuart;fadein:false;offsetxout:0;offsetyout:top;durationout:700;easingout:easeInQuart;fadeout:false;rotateyout:500;skewxout:50;parallaxlevel:3;"
+                 src="images/banners/phone_mockup.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-30px;left:-35px;white-space: nowrap;"
+                 data-ls="offsetxin:0;offsetyin:top;delayin:1200;easingin:easeOutQuart;offsetxout:0;offsetyout:top;durationout:700;easingout:easeInQuart;parallaxlevel:1;"
+                 src="images/banners/corner_light_2.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:415px;left:795px;white-space: nowrap;"
+                 data-ls="offsetxin:0;offsetyin:bottom;durationin:700;delayin:1400;easingin:easeOutQuart;fadein:false;offsetxout:0;offsetyout:bottom;easingout:easeInQuart;parallaxlevel:-1;"
+                 src="images/banners/corner_light_1.png"
+                 alt="">
             <div class="ls-l"
                  style="top:33px;left:552px;width:13px;height:13px;border-top:1px solid #fff;;border-right:1px solid #fff;;border-bottom:1px solid #fff;;border-left:1px solid #fff;;border-radius:11px;white-space: nowrap;"
                  data-ls="offsetxin:0;offsetyin:bottom;delayin:500;easingin:easeOutQuart;fadein:false;offsetxout:0;offsetyout:top;durationout:700;easingout:easeInQuart;parallaxlevel:-2;"></div>
@@ -446,33 +472,40 @@
                 <a href="dich-vu/thiet-ke-web/index.html" class="button" style="background-color: #fa566e;">Chi Tiết</a>
             </div>
         </div>
-        <div class="ls-slide" data-ls="slidedelay:5300;timeshift:300; transition2d: all;"><img class="ls-l"
-                                                                                               style="top:50%;left:50%;white-space: nowrap;"
-                                                                                               data-ls="offsetxin:0;durationin:1500;easingin:easeInOutSine;offsetxout:0;durationout:1500;easingout:easeInOutSine;"
-                                                                                               src="images/banners/slider_background_6.jpg"
-                                                                                               alt=""><img class="ls-l"
-                                                                                                           style="top:260px;left:490px;white-space: nowrap;"
-                                                                                                           data-ls="offsetxin:-80;offsetyin:-40;durationin:1500;delayin:1300;easingin:easeOutQuart;offsetyout:-40;durationout:500;parallaxlevel:-1;"
-                                                                                                           src="images/banners/screen_shadow.png"
-                                                                                                           alt=""><img
-                    class="ls-l" style="top:-90px;left:830px;white-space: nowrap;"
-                    data-ls="offsetxin:-80;offsetyin:-80;durationin:1500;delayin:1300;easingin:easeOutQuart;offsetyout:-80;durationout:500;parallaxlevel:-1;"
-                    src="images/banners/screen_shadow.png" alt=""><img class="ls-l"
-                                                                                   style="top:180px;left:437px;white-space: nowrap;"
-                                                                                   data-ls="offsetxin:-295;offsetyin:295;durationin:1500;delayin:800;easingin:easeOutQuart;fadein:false;offsetxout:-295;offsetyout:295;durationout:500;easingout:easeInQuart;fadeout:false;parallaxlevel:-2;"
-                                                                                   src="images/banners/screen_11.png"
-                                                                                   alt=""><img class="ls-l"
-                                                                                               style="top:-12px;left:785px;white-space: nowrap;"
-                                                                                               data-ls="offsetxin:260;offsetyin:-260;durationin:1500;delayin:800;easingin:easeOutQuart;fadein:false;offsetxout:260;offsetyout:-260;durationout:500;easingout:easeInQuart;fadeout:false;parallaxlevel:-2;"
-                                                                                               src="images/banners/screen_2222.png"
-                                                                                               alt=""><img class="ls-l"
-                                                                                                           style="top:376px;left:910px;white-space: nowrap;"
-                                                                                                           data-ls="offsetxin:-85;offsetyin:85;durationin:1500;delayin:800;easingin:easeOutQuart;fadein:false;offsetxout:-85;offsetyout:85;durationout:500;easingout:easeInQuart;fadeout:false;parallaxlevel:1;"
-                                                                                                           src="images/banners/corner_dark.png"
-                                                                                                           alt=""><img
-                    class="ls-l" style="top:-10px;left:437px;white-space: nowrap;"
-                    data-ls="offsetxin:63;offsetyin:-63;durationin:1500;delayin:800;easingin:easeOutQuart;fadein:false;offsetxout:63;offsetyout:-63;durationout:500;easingout:easeInQuart;fadeout:false;parallaxlevel:1;"
-                    src="images/banners/corner_dark_2.png" alt="">
+        <div class="ls-slide" data-ls="slidedelay:5300;timeshift:300; transition2d: all;">
+            <img class="ls-l"
+                 style="top:50%;left:50%;white-space: nowrap;"
+                 data-ls="offsetxin:0;durationin:1500;easingin:easeInOutSine;offsetxout:0;durationout:1500;easingout:easeInOutSine;"
+                 src="images/banners/slider_background_6.jpg"
+                 alt="">
+            <img class="ls-l"
+                 style="top:260px;left:490px;white-space: nowrap;"
+                 data-ls="offsetxin:-80;offsetyin:-40;durationin:1500;delayin:1300;easingin:easeOutQuart;offsetyout:-40;durationout:500;parallaxlevel:-1;"
+                 src="images/banners/screen_shadow.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-90px;left:830px;white-space: nowrap;"
+                 data-ls="offsetxin:-80;offsetyin:-80;durationin:1500;delayin:1300;easingin:easeOutQuart;offsetyout:-80;durationout:500;parallaxlevel:-1;"
+                 src="images/banners/screen_shadow.png" alt="">
+            <img class="ls-l"
+                 style="top:180px;left:437px;white-space: nowrap;"
+                 data-ls="offsetxin:-295;offsetyin:295;durationin:1500;delayin:800;easingin:easeOutQuart;fadein:false;offsetxout:-295;offsetyout:295;durationout:500;easingout:easeInQuart;fadeout:false;parallaxlevel:-2;"
+                 src="images/banners/screen_11.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-12px;left:785px;white-space: nowrap;"
+                 data-ls="offsetxin:260;offsetyin:-260;durationin:1500;delayin:800;easingin:easeOutQuart;fadein:false;offsetxout:260;offsetyout:-260;durationout:500;easingout:easeInQuart;fadeout:false;parallaxlevel:-2;"
+                 src="images/banners/screen_2222.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:376px;left:910px;white-space: nowrap;"
+                 data-ls="offsetxin:-85;offsetyin:85;durationin:1500;delayin:800;easingin:easeOutQuart;fadein:false;offsetxout:-85;offsetyout:85;durationout:500;easingout:easeInQuart;fadeout:false;parallaxlevel:1;"
+                 src="images/banners/corner_dark.png"
+                 alt="">
+            <img class="ls-l"
+                 style="top:-10px;left:437px;white-space: nowrap;"
+                 data-ls="offsetxin:63;offsetyin:-63;durationin:1500;delayin:800;easingin:easeOutQuart;fadein:false;offsetxout:63;offsetyout:-63;durationout:500;easingout:easeInQuart;fadeout:false;parallaxlevel:1;"
+                 src="images/banners/corner_dark_2.png" alt="">
             <div class="ls-l"
                  style="top:40px;left:690px;width:7px;height:7px;border-top:1px solid #3b3e4f;;border-right:1px solid #3b3e4f;;border-bottom:1px solid #3b3e4f;;border-left:1px solid #3b3e4f;;border-radius:13px;white-space: nowrap;"
                  data-ls="offsetxin:-438;offsetyin:438;delayin:900;easingin:easeOutQuart;fadein:false;offsetxout:50;offsetyout:-50;durationout:800;easingout:easeInBack;fadeout:false;parallaxlevel:3;"></div>
