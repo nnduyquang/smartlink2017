@@ -14471,6 +14471,9 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
   }
 }
 @media (max-width: 480px) {
+  .unit-body span.text-alto{
+    color: pink;
+  }
   .swiper-slide h1 {
     font-size: 32px;
   }
@@ -14519,6 +14522,9 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
 @media (max-width: 991px) {
   .swiper-slide-overlay-disable {
     background-position: right center;
+  }
+  .unit-body span.text-alto{
+    color: pink !important;
   }
 }
 .swiper-button {
@@ -14700,6 +14706,7 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
   .desktop .swiper-pagination {
     display: none;
   }
+
 }
 .mobile .swiper-pagination,
 .tablet .swiper-pagination {
@@ -14713,6 +14720,6 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
 .tablet .preview {
   display: none;
 }
-.unit-body span.text-alto{
-  color: #fff;
-}
+//.unit-body span.text-alto{
+//  color: pink !important;
+//}

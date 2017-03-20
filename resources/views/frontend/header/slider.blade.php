@@ -1,9 +1,9 @@
 <link rel='stylesheet' id='layerslider-css'
       href='css/banner/layerslider.css' type='text/css' media='all'/>
-{{--<link rel='stylesheet' id='codeus-fonts-icons-css' href='css/banner/fonts/icons5d0b.css'--}}
-      {{--type='text/css' media='all'/>--}}
-{{--<link rel='stylesheet' id='codeus-styles-css' href='css/banner/style5d0b.css?ver=4.3.9' type='text/css'--}}
-      {{--media='all'/>--}}
+<link rel='stylesheet' id='codeus-fonts-icons-css' href='css/banner/fonts/icons5d0b.css'
+      type='text/css' media='all'/>
+<link rel='stylesheet' id='codeus-styles-css' href='css/banner/style5d0b.css?ver=4.3.9' type='text/css'
+      media='all'/>
 <script type='text/javascript'
         src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>
 <style type="text/css">

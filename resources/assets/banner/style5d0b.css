@@ -26,7 +26,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	/*font-size: 100%;*/
 	outline:none;
 }
 article, aside, details, figcaption, figure,
@@ -48,12 +48,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-img {
-	vertical-align: top;
-	max-width: 100%;
-	width: auto;
-	height: auto;
-}
+/*img {*/
+	/*vertical-align: top;*/
+	/*max-width: 100%;*/
+	/*width: auto;*/
+	/*height: auto;*/
+/*}*/
 .clearfix:after {
 	content: ".";
 	display: block;
@@ -222,20 +222,7 @@ blockquote p:after {
 	font-style: normal;
 	vertical-align: bottom;
 }
-.icon {
-	position: absolute;
-	left: 0;
-	width: 28px;
-	line-height: 28px;
-	font-size: 21px;
-	font-family: 'Codeus-Icons';
-	font-weight: normal;
-	border-radius: 15px;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	text-align: center;
-	border: 1px solid transparent;
-}
+/*right-side*/
 @-moz-document url-prefix() {
 }
 .noscript + .loading {
