@@ -93,7 +93,8 @@ desired effect
                                         <a href="#">
                                             <div class="pull-left">
                                                 <!-- User Image -->
-                                                <img src="{{asset("../node_modules/admin-lte/dist/img/user2-160x160.jpg")}}" class="img-circle" alt="User Image">
+                                                <img src="{{asset("../node_modules/admin-lte/dist/img/user2-160x160.jpg")}}"
+                                                     class="img-circle" alt="User Image">
                                             </div>
                                             <!-- Message title and timestamp -->
                                             <h4>
@@ -158,7 +159,9 @@ desired effect
                                             <!-- The progress bar -->
                                             <div class="progress xs">
                                                 <!-- Change the css width attribute to simulate progress -->
-                                                <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar progress-bar-aqua" style="width: 20%"
+                                                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                                     aria-valuemax="100">
                                                     <span class="sr-only">20% Complete</span>
                                                 </div>
                                             </div>
@@ -177,14 +180,16 @@ desired effect
                         <!-- Menu Toggle Button -->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <!-- The user image in the navbar-->
-                            <img src="{{asset("../node_modules/admin-lte/dist/img/user2-160x160.jpg")}}" class="user-image" alt="User Image">
+                            <img src="{{asset("../node_modules/admin-lte/dist/img/user2-160x160.jpg")}}"
+                                 class="user-image" alt="User Image">
                             <!-- hidden-xs hides the username on small devices so only the image appears. -->
                             <span class="hidden-xs">Alexander Pierce</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- The user image in the menu -->
                             <li class="user-header">
-                                <img src="{{asset("../node_modules/admin-lte/dist/img/user2-160x160.jpg")}}" class="img-circle" alt="User Image">
+                                <img src="{{asset("../node_modules/admin-lte/dist/img/user2-160x160.jpg")}}"
+                                     class="img-circle" alt="User Image">
 
                                 <p>
                                     Alexander Pierce - Web Developer
@@ -259,12 +264,13 @@ desired effect
             <ul class="sidebar-menu">
                 <li class="header">HEADER</li>
                 <!-- Optionally, you can add icons to the links -->
-                <li class="active"><a href="{{ route('dashboard') }}"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
+                <li class="active"><a href="{{ route('dashboard') }}"><i class="fa fa-link"></i> <span>Dashboard</span></a>
+                </li>
                 @if(Auth::user()->hasRole('admin')||Auth::user()->can('user-list'))
-                <li><a href="{{ route('users.index') }}"><i class="fa fa-link"></i> <span>Người Dùng</span></a></li>
+                    <li><a href="{{ route('users.index') }}"><i class="fa fa-link"></i> <span>Người Dùng</span></a></li>
                 @endif
                 @if(Auth::user()->can('role-list'))
-                <li><a href="{{ route('roles.index') }}"><i class="fa fa-link"></i> <span>Quyền</span></a></li>
+                    <li><a href="{{ route('roles.index') }}"><i class="fa fa-link"></i> <span>Quyền</span></a></li>
                 @endif
                 <li><a href="{{ route('tintucs.index') }}"><i class="fa fa-link"></i> <span>Tin Tức</span></a></li>
                 <li class="treeview">
